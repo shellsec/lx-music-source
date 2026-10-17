@@ -1,0 +1,49 @@
+{
+  "sources": [
+    {
+      "id": "grass",
+      "name": "野草",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/pdone/lx-music-source/main/grass/latest.js"
+    },
+    {
+      "id": "appx64",
+      "name": "Appx64",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/shellsec/lx-music-source/master/appx64/Appx64-music-source.js"
+    },
+    {
+      "id": "flower",
+      "name": "野花",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/pdone/lx-music-source/main/flower/latest.js"
+    },
+    {
+      "id": "sixyin",
+      "name": "六音",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/pdone/lx-music-source/main/sixyin/latest.js"
+    },
+    {
+      "id": "huibq",
+      "name": "Huibq",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/pdone/lx-music-source/main/huibq/latest.js"
+    },
+    {
+      "id": "lx",
+      "name": "LX",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/pdone/lx-music-source/main/lx/latest.js"
+    },
+    {
+      "id": "ikun",
+      "name": "ikun",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/pdone/lx-music-source/main/ikun/latest.js"
+    },
+    {
+      "id": "juhe",
+      "name": "聚合",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/pdone/lx-music-source/main/juhe/latest.js"
+    },
+    {
+      "id": "qdy",
+      "name": "全豆要",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/pdone/lx-music-source/main/qdy/latest.js"
+    }
+  ]
+}
