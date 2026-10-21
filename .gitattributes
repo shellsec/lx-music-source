@@ -1,0 +1,2 @@
+# Preserve downloaded source bytes so SHA-256 test snapshots remain reproducible.
+sources/**/*.js -text
