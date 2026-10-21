@@ -1,0 +1,12 @@
+{
+  "confirmations": [
+    {
+      "id": "grass",
+      "file": "sources/grass/野草🌾.js",
+      "sha256": "d694275f382427d3fef809fc77338ef014dc330af710cca6b3233ece8740510f",
+      "confirmedOn": "2026-10-21",
+      "confirmedBy": "user",
+      "note": "用户确认客户端实测可用并要求加入；模拟环境酷我样本未通过，保留原始测试结果。"
+    }
+  ]
+}

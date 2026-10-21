@@ -1,0 +1,7 @@
+[
+  { "source": "wy", "info": { "id": "186016", "songmid": "186016", "name": "晴天", "singer": "周杰伦", "albumName": "叶惠美", "interval": "04:29", "duration": 269000 } },
+  { "source": "kw", "info": { "id": "228908", "songmid": "228908", "rid": "228908" } },
+  { "source": "tx", "info": { "id": "97773", "songId": "97773", "songmid": "0039MnYb0qxYhV", "mid": "0039MnYb0qxYhV", "strMediaMid": "003Qui1q2u1Zho", "mediaMid": "003Qui1q2u1Zho", "name": "晴天", "singer": "周杰伦", "albumName": "叶惠美", "albumId": "8220", "interval": "04:29", "duration": 269000 } },
+  { "source": "kg", "info": { "id": "32100650", "songmid": "32100650", "hash": "B3A52A7A958BF0AED0EBFBA2E9A818B7", "albumAudioId": "32100650", "albumId": "966846", "name": "晴天", "singer": "周杰伦", "albumName": "叶惠美", "interval": "04:29", "duration": 269000, "_types": { "128k": { "hash": "B3A52A7A958BF0AED0EBFBA2E9A818B7" }, "320k": { "hash": "1B56126A8A03924F1DD066259C095CBC" }, "flac": { "hash": "0A69169202DE95AAF24A9944CCF0730D" } } } },
+  { "source": "mg", "info": { "id": "3790007", "songmid": "3790007", "songId": "3790007", "musicId": "3790007", "copyrightId": "60054701923", "contentId": "600902000006889366", "name": "晴天", "singer": "周杰伦", "albumName": "叶惠美", "albumId": "8592", "interval": "04:29", "duration": 269000 } }
+]

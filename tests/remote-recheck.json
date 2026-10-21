@@ -1,0 +1,210 @@
+{
+  "testedAt": "2026-10-21T03:23:46.071Z",
+  "results": [
+    {
+      "name": "六音音源",
+      "sha256": "a407ffe0ab23c29cd32ce249b83e61c8e2b70719895f16034566ad7557282785",
+      "initialized": false,
+      "attempts": [],
+      "errors": [],
+      "error": "脚本错误，加载音源信息失败，请前往 http://www.sixyin.com 下载最新版本！",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/pdone/lx-music-source/main/sixyin/latest.js"
+    },
+    {
+      "name": "野草🌾",
+      "sha256": "d694275f382427d3fef809fc77338ef014dc330af710cca6b3233ece8740510f",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "error": "Error"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kw"
+      ],
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/pdone/lx-music-source/main/grass/latest.js"
+    },
+    {
+      "name": "Huibq_lxmusic源",
+      "sha256": "a9adeb456690b523008038224091cee31977606302d79082eb06adb3c75c9146",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "unknow error"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "error": "unknow error"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kw",
+        "kg",
+        "tx",
+        "wy",
+        "mg"
+      ],
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/pdone/lx-music-source/main/huibq/latest.js"
+    },
+    {
+      "name": "野花🌷",
+      "sha256": "15c166987edde41cf5917b3160c0ab253ff17e5e6bc6765c9eaa11a822c4aa97",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "Error"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "error": "Error"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kw",
+        "wy",
+        "mg",
+        "tx",
+        "kg"
+      ],
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/pdone/lx-music-source/main/flower/latest.js"
+    },
+    {
+      "name": "ikun音源",
+      "sha256": "8db6c45bc225f1f15fc2e96f7d9ad3bf2e49dd1f2a998cdf23704185ea41fe89",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "Transport 6"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "error": "Transport 6"
+        }
+      ],
+      "errors": [
+        "Transport 6"
+      ],
+      "platforms": [
+        "kw",
+        "wy",
+        "git"
+      ],
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/pdone/lx-music-source/main/ikun/latest.js"
+    },
+    {
+      "name": "独家音源",
+      "sha256": "ef5289ddc2e8fd98ec7ac9e096878d9e6fed5e4ae1669d21e4484eac247aeda7",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "Transport 35"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "error": "Transport 35"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kw",
+        "kg",
+        "tx",
+        "wy",
+        "mg",
+        "local"
+      ],
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/pdone/lx-music-source/main/lx/latest.js"
+    },
+    {
+      "name": "聚合API接口 (CF)",
+      "sha256": "f7a661f01af7ea23035d5fac3b89d7c756372fc8a64bbfd649918f8a101cbf33",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "source not match"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "error": "source not match"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kg",
+        "kw",
+        "mg",
+        "tx",
+        "wy"
+      ],
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/pdone/lx-music-source/main/juhe/latest.js"
+    },
+    {
+      "name": "全豆要[聚合音源]",
+      "sha256": "213f73232562b528826dd97601e74212b517014e06fd614b28d8d8aa0dda400c",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "resolved": true,
+          "status": 404,
+          "bytes": 138,
+          "audio": false,
+          "contentType": "text/html"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 410,
+          "bytes": 0,
+          "audio": false
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "wy",
+        "tx",
+        "kw",
+        "kg",
+        "mg",
+        "qsvip"
+      ],
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/pdone/lx-music-source/main/qdy/latest.js"
+    }
+  ],
+  "scope": "128k smoke test: wy 186016 and kw 228908 when advertised; simulated LX runtime, not full client validation"
+}

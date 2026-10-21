@@ -1,0 +1,891 @@
+{
+  "testedOn": "2026-10-21",
+  "timezone": "Asia/Shanghai",
+  "scope": "LX-compatible Node VM smoke test; 128k; wy 186016 and kw 228908; initialization, musicUrl resolution, HTTP status and audio header only. Not a full LX desktop/mobile or all-platform/quality test.",
+  "transportCodes": {
+    "6": "DNS resolution failed",
+    "28": "Request timed out",
+    "35": "TLS handshake failed",
+    "56": "Receive failed"
+  },
+  "results": [
+    {
+      "file": "sources\\appx64\\latest.js",
+      "name": "Appx64 Clear Music",
+      "sha256": "ae24e896cd6a60e3a7588630c468efc8cc4a96ccc5ace4fb676082f26e83189a",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "No verified wy/128k stream. gd: HTTP 400; wwwweb: Backend did not resolve the song"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "wy",
+        "tx",
+        "kw",
+        "kg",
+        "mg"
+      ],
+      "selected": true,
+      "id": "appx64",
+      "publishedFile": "sources/appx64/Appx64 Clear Music.js"
+    },
+    {
+      "file": "tests\\音源接口\\其它本地音源\\音源\\洛雪音源1.js",
+      "name": "星海音乐源",
+      "sha256": "807d6157e4fd7cdd05b8727efd73778b54a3b05a0b5e4c6bb28dedc0668e94e9",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "GD接口失败: GD接口状态400，未返回音频"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "wy",
+        "tx",
+        "kg",
+        "kw",
+        "mg",
+        "qs"
+      ],
+      "selected": true,
+      "id": "xinghai",
+      "publishedFile": "sources/xinghai/星海音乐源.js"
+    },
+    {
+      "file": "tests\\音源接口\\其它本地音源\\音源\\洛雪音源11.js",
+      "name": "屿溪-终章",
+      "sha256": "b45e05b8c043f0e715f9856ea400707bdf131b9c05b5014e1de9d0821a9972a7",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "播放地址解析失败"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kg",
+        "tx",
+        "wy",
+        "kw",
+        "mg"
+      ],
+      "selected": true,
+      "id": "yuxi",
+      "publishedFile": "sources/yuxi/屿溪-终章.js"
+    },
+    {
+      "file": "tests\\音源接口\\其它本地音源\\音源\\洛雪音源10.js",
+      "name": "lx-玉宁熙-Pro",
+      "sha256": "9ddcc32f55ba1981166f16bf55c03c43165b098932208a5fb4c9c64192650f0c",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "网易云所有接口均获取失败"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "tx",
+        "wy",
+        "kw",
+        "kg",
+        "mg"
+      ],
+      "selected": true,
+      "id": "yuningxi",
+      "publishedFile": "sources/yuningxi/lx-玉宁熙-Pro.js"
+    },
+    {
+      "file": "tests\\音源接口\\其它本地音源\\音源\\洛雪音源13.js",
+      "name": "fish_music",
+      "sha256": "a711e152c4f28c32fd46b38839a70f476e0b669905773a90e2ce63246136af47",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kw",
+        "wy",
+        "kg",
+        "tx",
+        "mg"
+      ],
+      "selected": true,
+      "id": "fish-music",
+      "publishedFile": "sources/fish-music/fish_music.js"
+    },
+    {
+      "file": "sources\\changqing\\latest.js",
+      "name": "长青SVIP音源",
+      "sha256": "e4f28c46fc4c23544e899bcddc6a0ed8c4e745a747662c436fd4caad7477b436",
+      "initialized": false,
+      "attempts": [],
+      "errors": [],
+      "platforms": [],
+      "selected": false
+    },
+    {
+      "file": "tests\\音源接口\\其它本地音源\\音源\\洛雪音源12.js",
+      "name": "lx-animemusic",
+      "sha256": "cb26455f3d08be3d9fa034740a8d4bf186caf6c4200493c096026a6e2c3d0fa8",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "获取URL失败, 获取URL失败"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kg",
+        "kw",
+        "wy",
+        "tx",
+        "bilibili",
+        "qishui",
+        "qmkg",
+        "kuaishou",
+        "youtube",
+        "xmly"
+      ],
+      "selected": true,
+      "id": "animemusic",
+      "publishedFile": "sources/animemusic/lx-animemusic.js"
+    },
+    {
+      "file": "tests\\音源接口\\其它本地音源\\音源\\洛雪音源2.js",
+      "name": "长青SVIP音源(二改修复版)",
+      "sha256": "48d5fed8b46344e9298d55427382ce573485a264a2ae287ed829e2f2548223e8",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "播放地址解析失败"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kg",
+        "tx",
+        "wy",
+        "kw"
+      ],
+      "selected": true,
+      "id": "changqing",
+      "publishedFile": "sources/changqing/长青SVIP音源(二改修复版).js"
+    },
+    {
+      "file": "tests\\音源接口\\其它本地音源\\音源\\洛雪音源14.js",
+      "name": "𝖧౿ᥣᥣ𝗈 Ԝ𝗈𝗋ᥣᑯ",
+      "sha256": "12d7a289647b4f4ff8b94d4b27d06a55b7ca9b9be6ac89c602cac2052eced723",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "所有API均失败(128k) [url:WyServerError(url为空): {\"data\":[{\"id\":186016,\"url\":null,\"br\":0,\"size\":0,\"md5\":null,\"code\":404,\"expi\":1200,\"type\":null,\"gain\":0.0,\"peak\":null,\"closedGain\":0.0,\"closedPeak\":0.0,\"fee\":0,\"uf\":null,\"payed\":0,\"flag\":1605888,\"ca"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kw",
+        "kg",
+        "tx",
+        "wy",
+        "mg",
+        "local"
+      ],
+      "selected": true,
+      "id": "hello-world",
+      "publishedFile": "sources/hello-world/𝖧౿ᥣᥣ𝗈 Ԝ𝗈𝗋ᥣᑯ.js"
+    },
+    {
+      "file": "tests\\音源接口\\其它本地音源\\音源\\洛雪音源15.js",
+      "name": "HYWmusic_公益版",
+      "sha256": "0f48bdab4205e4423397f970b926565085a5af4f3b8a8a19f4cdc0e755647cd5",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "Transport 28"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kw",
+        "tx",
+        "wy",
+        "mg",
+        "qs",
+        "bili",
+        "ytb",
+        "xm",
+        "kg"
+      ],
+      "selected": false
+    },
+    {
+      "file": "tests\\音源接口\\其它本地音源\\音源\\洛雪音源5.js",
+      "name": "野草🌾",
+      "sha256": "dfbba18d9e949a9fcfc74e4ca8a8be64ae7105524110314ed29159372307ce3f",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "error": "Transport 6"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kw"
+      ],
+      "selected": false
+    },
+    {
+      "file": "tests\\音源接口\\其它本地音源\\音源\\洛雪音源4.js",
+      "name": "墨澜聚合音源",
+      "sha256": "328e06c473dfc0ba6de338a7b04f00e3b67a69f59205ca6903d553a80b57c706",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "所有后端均失败（共1个）\nikun网易云: ikun网易云: WyServerError(url为空): {\"data\":[{\"id\":186016,\"url\":null,\"br\":0,\"size\":0,\"md5\":null,\"code\":404,\"expi\":1200,\"type\":null,\"gain\":0.0,\"peak\":null,\"closedGain\":0.0,\"closedPeak\":0.0,\"fee\":0,\"uf\":null,\"payed\":0,\"flag\":"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "tx",
+        "wy",
+        "kw",
+        "kg",
+        "mg"
+      ],
+      "selected": true,
+      "id": "molan",
+      "publishedFile": "sources/molan/墨澜聚合音源.js"
+    },
+    {
+      "file": "tests\\音源接口\\其它本地音源\\音源\\洛雪音源7.js",
+      "name": "野花🌷",
+      "sha256": "4f677c4c655ffe353116db8921fd8b14aa06bb6c94787f317863ec33a637e2c4",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "Transport 6"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "error": "Transport 6"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kw",
+        "wy",
+        "mg",
+        "tx",
+        "kg"
+      ],
+      "selected": false
+    },
+    {
+      "file": "tests\\音源接口\\其它本地音源\\音源\\洛雪音源8.js",
+      "name": "HYWmusic_beta_公益测试",
+      "sha256": "cc5150108b833a2e1d92a0d43cca7667e571055043c51bcfca1348cca610c681",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "卡密已过期，请下载最新正式版：[URL]"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "error": "卡密已过期，请下载最新正式版：[URL]"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kw",
+        "kg",
+        "tx",
+        "wy",
+        "mg"
+      ],
+      "selected": false
+    },
+    {
+      "file": "tests\\音源接口\\其它本地音源\\音源\\洛雪音源6.js",
+      "name": "K×H测试",
+      "sha256": "5c0fd239110e4835533d7f289ad895cae2ded3917af501db0650f08f592265ea",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "resolved": true,
+          "status": 200,
+          "bytes": 107191,
+          "audio": false,
+          "contentType": "text/html;charset=utf8"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/x-flac"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "wy",
+        "tx",
+        "kw",
+        "kg",
+        "mg"
+      ],
+      "selected": true,
+      "id": "kxh",
+      "publishedFile": "sources/kxh/K×H测试.js"
+    },
+    {
+      "file": "tests\\音源接口\\其它本地音源\\音源\\洛雪音源9.js",
+      "name": "聚合API接口 (CF)",
+      "sha256": "f7a661f01af7ea23035d5fac3b89d7c756372fc8a64bbfd649918f8a101cbf33",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "source not match"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "error": "source not match"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kg",
+        "kw",
+        "mg",
+        "tx",
+        "wy"
+      ],
+      "selected": false
+    },
+    {
+      "file": "tests\\音源接口\\独家音源（暂停）\\lx-music-source-v6 (修复).js",
+      "name": "独家音源",
+      "sha256": "ef5289ddc2e8fd98ec7ac9e096878d9e6fed5e4ae1669d21e4484eac247aeda7",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "Transport 35"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "error": "Transport 35"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kw",
+        "kg",
+        "tx",
+        "wy",
+        "mg",
+        "local"
+      ],
+      "selected": false
+    },
+    {
+      "file": "tests\\音源接口\\其它本地音源\\音源\\洛雪音源3.js",
+      "name": "杰翔聚合音源",
+      "sha256": "46a151119f72e2b04e7fa1a42baf2208f82be5d94c0c1b580eab5b23e754149d",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "resolved": true,
+          "status": 200,
+          "bytes": 107191,
+          "audio": false,
+          "contentType": "text/html;charset=utf8"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "tx",
+        "wy",
+        "kw",
+        "kg",
+        "mg"
+      ],
+      "selected": true,
+      "id": "jiexiang",
+      "publishedFile": "sources/jiexiang/杰翔聚合音源.js"
+    },
+    {
+      "file": ".tmp-audit\\card-key.js",
+      "name": "HYWmusic_公益版",
+      "sha256": "9f1cb9791c9abda54b34f5c5b945fa7e0b992702523694f66d6128a655492f86",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "网易云所有音源均获取失败"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kw",
+        "tx",
+        "wy",
+        "mg",
+        "qs",
+        "bili",
+        "ytb",
+        "xm",
+        "kg"
+      ],
+      "selected": true,
+      "id": "hyw",
+      "publishedFile": "sources/hyw/HYWmusic_公益版.js"
+    },
+    {
+      "file": ".tmp-audit\\candidates\\sixyin.js",
+      "name": "六音音源",
+      "sha256": "a407ffe0ab23c29cd32ce249b83e61c8e2b70719895f16034566ad7557282785",
+      "initialized": false,
+      "attempts": [],
+      "errors": [],
+      "error": "脚本错误，加载音源信息失败，请前往 http://www.sixyin.com 下载最新版本！",
+      "id": "sixyin",
+      "selected": false
+    },
+    {
+      "file": ".tmp-audit\\candidates\\grass.js",
+      "name": "野草🌾",
+      "sha256": "d694275f382427d3fef809fc77338ef014dc330af710cca6b3233ece8740510f",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "error": "Error"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kw"
+      ],
+      "id": "grass",
+      "selected": false
+    },
+    {
+      "file": ".tmp-audit\\candidates\\flower.js",
+      "name": "野花🌷",
+      "sha256": "15c166987edde41cf5917b3160c0ab253ff17e5e6bc6765c9eaa11a822c4aa97",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "Error"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "error": "Error"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kw",
+        "wy",
+        "mg",
+        "tx",
+        "kg"
+      ],
+      "id": "flower",
+      "selected": false
+    },
+    {
+      "file": ".tmp-audit\\candidates\\huibq.js",
+      "name": "Huibq_lxmusic源",
+      "sha256": "a9adeb456690b523008038224091cee31977606302d79082eb06adb3c75c9146",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "unknow error"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "error": "unknow error"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kw",
+        "kg",
+        "tx",
+        "wy",
+        "mg"
+      ],
+      "id": "huibq",
+      "selected": false
+    },
+    {
+      "file": ".tmp-audit\\candidates\\lx.js",
+      "name": "独家音源",
+      "sha256": "ef5289ddc2e8fd98ec7ac9e096878d9e6fed5e4ae1669d21e4484eac247aeda7",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "Transport 35"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "error": "Transport 56"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kw",
+        "kg",
+        "tx",
+        "wy",
+        "mg",
+        "local"
+      ],
+      "id": "lx",
+      "selected": false
+    },
+    {
+      "file": ".tmp-audit\\candidates\\ikun.js",
+      "name": "ikun音源",
+      "sha256": "8db6c45bc225f1f15fc2e96f7d9ad3bf2e49dd1f2a998cdf23704185ea41fe89",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "Transport 6"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "error": "Transport 6"
+        }
+      ],
+      "errors": [
+        "Transport 6"
+      ],
+      "platforms": [
+        "kw",
+        "wy",
+        "git"
+      ],
+      "id": "ikun",
+      "selected": false
+    },
+    {
+      "file": ".tmp-audit\\candidates\\juhe.js",
+      "name": "聚合API接口 (CF)",
+      "sha256": "f7a661f01af7ea23035d5fac3b89d7c756372fc8a64bbfd649918f8a101cbf33",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "source not match"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "error": "source not match"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kg",
+        "kw",
+        "mg",
+        "tx",
+        "wy"
+      ],
+      "id": "juhe",
+      "selected": false
+    },
+    {
+      "file": ".tmp-audit\\candidates\\qdy.js",
+      "name": "全豆要[聚合音源]",
+      "sha256": "213f73232562b528826dd97601e74212b517014e06fd614b28d8d8aa0dda400c",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "resolved": true,
+          "status": 404,
+          "bytes": 138,
+          "audio": false,
+          "contentType": "text/html"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 410,
+          "bytes": 0,
+          "audio": false
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "wy",
+        "tx",
+        "kw",
+        "kg",
+        "mg",
+        "qsvip"
+      ],
+      "id": "qdy",
+      "selected": false
+    },
+    {
+      "file": ".tmp-audit\\candidates\\hyw-public.js",
+      "name": "HYWmusic_公益版",
+      "sha256": "57a63883122e1863e231fe77d140e63d014770e9a687582a03f332b5ef0865ad",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "需要卡密才能访问，请在请求中携带 key 参数"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "error": "需要卡密才能访问，请在请求中携带 key 参数"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kw",
+        "tx",
+        "wy",
+        "mg",
+        "qs",
+        "bili",
+        "ytb",
+        "xm",
+        "kg"
+      ],
+      "selected": false
+    }
+  ]
+}
