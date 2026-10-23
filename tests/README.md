@@ -45,5 +45,7 @@ node tools/probe-sources.cjs --output tests/latest-probe.json
 | [platform-probe.json](platform-probe.json) | 五平台原始结果与 QDY 复测 |
 | [latest-probe.json](latest-probe.json) | 已收录脚本自动抽测快照 |
 | [user-confirmed.json](user-confirmed.json) | 用户客户端确认记录 |
+| [upstream-2026-10-23.md](upstream-2026-10-23.md) | 上游 11 个音源的复查与合并判断 |
+| [upstream-2026-10-23.json](upstream-2026-10-23.json) | 固定上游提交、文件 Hash 和逐平台检测证据 |
 
 结合检测时间、脚本 Hash 和用户实测判断差异。QDY 酷我历史失败，后续连续两次通过后恢复；野草模拟未通过，但用户确认可用。表中的 ✓ 仅代表音频响应通过，不代表整首或全平台可用。
