@@ -37,6 +37,8 @@ node tools/probe-sources.cjs --output tests/latest-probe.json
 
 ## 记录文件
 
+最新批次为 [2026-11-01 仓库扫描与合并报告](refresh-2026-11-01.md)，原始记录见 [refresh-2026-11-01.json](refresh-2026-11-01.json)。历史批次结果不会因后续接口恢复而改写；`latest-probe.json` 是按文件保留的最近成功快照，新合并条目的检测时间另存于条目 `testedAt`。
+
 | 文件 | 内容 |
 |---|---|
 | [availability.json](availability.json) | 首轮候选筛选与 Hash |
@@ -47,5 +49,7 @@ node tools/probe-sources.cjs --output tests/latest-probe.json
 | [user-confirmed.json](user-confirmed.json) | 用户客户端确认记录 |
 | [upstream-2026-10-23.md](upstream-2026-10-23.md) | 上游 11 个音源的复查与合并判断 |
 | [upstream-2026-10-23.json](upstream-2026-10-23.json) | 固定上游提交、文件 Hash 和逐平台检测证据 |
+| [refresh-2026-11-01.md](refresh-2026-11-01.md) | 四仓库扫描、版本选择及合并结果 |
+| [refresh-2026-11-01.json](refresh-2026-11-01.json) | 49 次下载、41 个唯一脚本、固定提交与修改版验证证据 |
 
 结合检测时间、脚本 Hash 和用户实测判断差异。QDY 酷我历史失败，后续连续两次通过后恢复；野草模拟未通过，但用户确认可用。表中的 ✓ 仅代表音频响应通过，不代表整首或全平台可用。

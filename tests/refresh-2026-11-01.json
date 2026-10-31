@@ -1,0 +1,3026 @@
+{
+  "testedAt": "2026-10-31T18:22:28.914Z",
+  "results": [
+    {
+      "name": "长青SVIP音源",
+      "sha256": "6a942987c1e111a113376fbf8ff9fb677c487058f16ce792779c72f69c4ed6de",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "resolved": true,
+          "status": 404,
+          "bytes": 146,
+          "audio": false,
+          "contentType": "text/html"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 404,
+          "bytes": 146,
+          "audio": false,
+          "contentType": "text/html"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "resolved": true,
+          "status": 404,
+          "bytes": 146,
+          "audio": false,
+          "contentType": "text/html"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "resolved": true,
+          "status": 404,
+          "bytes": 146,
+          "audio": false,
+          "contentType": "text/html"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "resolved": true,
+          "status": 404,
+          "bytes": 146,
+          "audio": false,
+          "contentType": "text/html"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kg",
+        "tx",
+        "wy",
+        "kw",
+        "mg"
+      ],
+      "upstream": {
+        "repository": "pdone/lx-music-source",
+        "commit": "000578ddca4a676012cf735abdc3489efdc67c74",
+        "path": "changqing/latest.js",
+        "url": "https://raw.githubusercontent.com/pdone/lx-music-source/000578ddca4a676012cf735abdc3489efdc67c74/changqing/latest.js",
+        "version": "1.3.0"
+      },
+      "decision": "not-merged-no-passing-sample"
+    },
+    {
+      "name": "野草🌾",
+      "sha256": "d694275f382427d3fef809fc77338ef014dc330af710cca6b3233ece8740510f",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "error": "Error"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kw"
+      ],
+      "upstream": {
+        "repository": "pdone/lx-music-source",
+        "commit": "000578ddca4a676012cf735abdc3489efdc67c74",
+        "path": "grass/latest.js",
+        "url": "https://raw.githubusercontent.com/pdone/lx-music-source/000578ddca4a676012cf735abdc3489efdc67c74/grass/latest.js",
+        "version": "1"
+      },
+      "decision": "not-merged-no-passing-sample"
+    },
+    {
+      "name": "野花🌷",
+      "sha256": "15c166987edde41cf5917b3160c0ab253ff17e5e6bc6765c9eaa11a822c4aa97",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "Error"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "error": "Error"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "error": "Error"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "error": "Error"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "error": "Error"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kw",
+        "wy",
+        "mg",
+        "tx",
+        "kg"
+      ],
+      "upstream": {
+        "repository": "pdone/lx-music-source",
+        "commit": "000578ddca4a676012cf735abdc3489efdc67c74",
+        "path": "flower/latest.js",
+        "url": "https://raw.githubusercontent.com/pdone/lx-music-source/000578ddca4a676012cf735abdc3489efdc67c74/flower/latest.js",
+        "version": "1"
+      },
+      "decision": "not-merged-no-passing-sample"
+    },
+    {
+      "name": "幻音音源",
+      "sha256": "4a81129240ecae3ebf6b42f28c73e2d37bbcb6fccac9a73a401d90cdd36bee5f",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "resolved": true,
+          "error": "Transport 6"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "error": "Transport 6"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "resolved": true,
+          "error": "Transport 6"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "error": "咪咕找不到"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "tx",
+        "kw",
+        "wy",
+        "mg"
+      ],
+      "upstream": {
+        "repository": "pdone/lx-music-source",
+        "commit": "000578ddca4a676012cf735abdc3489efdc67c74",
+        "path": "huanyin/latest.js",
+        "url": "https://raw.githubusercontent.com/pdone/lx-music-source/000578ddca4a676012cf735abdc3489efdc67c74/huanyin/latest.js",
+        "version": "v3"
+      },
+      "decision": "not-merged-no-passing-sample"
+    },
+    {
+      "name": "Huibq_lxmusic源",
+      "sha256": "a9adeb456690b523008038224091cee31977606302d79082eb06adb3c75c9146",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "unknow error"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "error": "unknow error"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "error": "unknow error"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "error": "unknow error"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "error": "unknow error"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kw",
+        "kg",
+        "tx",
+        "wy",
+        "mg"
+      ],
+      "upstream": {
+        "repository": "pdone/lx-music-source",
+        "commit": "000578ddca4a676012cf735abdc3489efdc67c74",
+        "path": "huibq/latest.js",
+        "url": "https://raw.githubusercontent.com/pdone/lx-music-source/000578ddca4a676012cf735abdc3489efdc67c74/huibq/latest.js",
+        "version": "v1.2.0"
+      },
+      "decision": "not-merged-no-passing-sample"
+    },
+    {
+      "name": "fish_music",
+      "sha256": "a711e152c4f28c32fd46b38839a70f476e0b669905773a90e2ce63246136af47",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mp4"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kw",
+        "wy",
+        "kg",
+        "tx",
+        "mg"
+      ],
+      "upstream": {
+        "repository": "pdone/lx-music-source",
+        "commit": "000578ddca4a676012cf735abdc3489efdc67c74",
+        "path": "fish/latest.js",
+        "url": "https://raw.githubusercontent.com/pdone/lx-music-source/000578ddca4a676012cf735abdc3489efdc67c74/fish/latest.js",
+        "version": "1.9.0"
+      },
+      "decision": "retain-existing-or-skip-older-variant"
+    },
+    {
+      "name": "ikun音源",
+      "sha256": "8db6c45bc225f1f15fc2e96f7d9ad3bf2e49dd1f2a998cdf23704185ea41fe89",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "Transport 6"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "error": "Transport 6"
+        }
+      ],
+      "errors": [
+        "Transport 6"
+      ],
+      "platforms": [
+        "kw",
+        "wy",
+        "git"
+      ],
+      "upstream": {
+        "repository": "pdone/lx-music-source",
+        "commit": "000578ddca4a676012cf735abdc3489efdc67c74",
+        "path": "ikun/latest.js",
+        "url": "https://raw.githubusercontent.com/pdone/lx-music-source/000578ddca4a676012cf735abdc3489efdc67c74/ikun/latest.js",
+        "version": "v22"
+      },
+      "decision": "not-merged-no-passing-sample"
+    },
+    {
+      "name": "𝖧౿ᥣᥣ𝗈 Ԝ𝗈𝗋ᥣᑯ",
+      "sha256": "12d7a289647b4f4ff8b94d4b27d06a55b7ca9b9be6ac89c602cac2052eced723",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg; charset=UTF-8"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kw",
+        "kg",
+        "tx",
+        "wy",
+        "mg",
+        "local"
+      ],
+      "upstream": {
+        "repository": "pdone/lx-music-source",
+        "commit": "000578ddca4a676012cf735abdc3489efdc67c74",
+        "path": "helloworld/latest.js",
+        "url": "https://raw.githubusercontent.com/pdone/lx-music-source/000578ddca4a676012cf735abdc3489efdc67c74/helloworld/latest.js",
+        "version": "260925"
+      },
+      "decision": "retain-existing-or-skip-older-variant"
+    },
+    {
+      "name": "聚合API接口 (CF)",
+      "sha256": "f7a661f01af7ea23035d5fac3b89d7c756372fc8a64bbfd649918f8a101cbf33",
+      "initialized": false,
+      "attempts": [],
+      "errors": [
+        "Error: 脚本初始化失败"
+      ],
+      "platforms": [],
+      "upstream": {
+        "repository": "pdone/lx-music-source",
+        "commit": "000578ddca4a676012cf735abdc3489efdc67c74",
+        "path": "juhe/latest.js",
+        "url": "https://raw.githubusercontent.com/pdone/lx-music-source/000578ddca4a676012cf735abdc3489efdc67c74/juhe/latest.js",
+        "version": "3"
+      },
+      "decision": "not-merged-no-passing-sample"
+    },
+    {
+      "name": "杰翔聚合音源",
+      "sha256": "a4f25710ea8c993e20626df2345fb933607eb4b91b794bd323f954e7085b94df",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "所有后端均失败（共20个）\nikun网易云: ikun网易云: WyServerError(url为空): {\"data\":[{\"id\":186016,\"url\":null,\"br\":0,\"size\":0,\"md5\":null,\"code\":404,\"expi\":1200,\"type\":null,\"gain\":0.0,\"peak\":null,\"closedGain\":0.0,\"closedPeak\":0.0,\"fee\":0,\"uf\":null,\"payed\":0,\"flag\""
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "tx",
+        "wy",
+        "kw",
+        "kg",
+        "mg"
+      ],
+      "upstream": {
+        "repository": "pdone/lx-music-source",
+        "commit": "000578ddca4a676012cf735abdc3489efdc67c74",
+        "path": "jiexiang/latest.js",
+        "url": "https://raw.githubusercontent.com/pdone/lx-music-source/000578ddca4a676012cf735abdc3489efdc67c74/jiexiang/latest.js",
+        "version": "2.3.0"
+      },
+      "decision": "retain-existing-or-skip-older-variant"
+    },
+    {
+      "name": "HYWmusic_公益版",
+      "sha256": "0f48bdab4205e4423397f970b926565085a5af4f3b8a8a19f4cdc0e755647cd5",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg; charset=UTF-8"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 410,
+          "bytes": 0,
+          "audio": false
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "resolved": true,
+          "error": "Transport 28"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kw",
+        "tx",
+        "wy",
+        "mg",
+        "qs",
+        "bili",
+        "ytb",
+        "xm",
+        "kg"
+      ],
+      "upstream": {
+        "repository": "pdone/lx-music-source",
+        "commit": "000578ddca4a676012cf735abdc3489efdc67c74",
+        "path": "hyw/latest.js",
+        "url": "https://raw.githubusercontent.com/pdone/lx-music-source/000578ddca4a676012cf735abdc3489efdc67c74/hyw/latest.js",
+        "version": "v1.2.0"
+      },
+      "decision": "retain-existing-or-skip-older-variant"
+    },
+    {
+      "name": "六音音源",
+      "sha256": "a407ffe0ab23c29cd32ce249b83e61c8e2b70719895f16034566ad7557282785",
+      "initialized": false,
+      "attempts": [],
+      "errors": [],
+      "error": "脚本错误，加载音源信息失败，请前往 http://www.sixyin.com 下载最新版本！",
+      "upstream": {
+        "repository": "pdone/lx-music-source",
+        "commit": "000578ddca4a676012cf735abdc3489efdc67c74",
+        "path": "sixyin/latest.js",
+        "url": "https://raw.githubusercontent.com/pdone/lx-music-source/000578ddca4a676012cf735abdc3489efdc67c74/sixyin/latest.js",
+        "version": "v1.2.1"
+      },
+      "decision": "not-merged-no-passing-sample"
+    },
+    {
+      "name": "独家音源",
+      "sha256": "79a5c4703e060eaff6f8ffaac05d2fadf5e22b7729f6fe151d1cca2fa3935171",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "unknow error"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "error": "get music url failed"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kw",
+        "kg",
+        "tx",
+        "wy",
+        "mg",
+        "local"
+      ],
+      "upstream": {
+        "repository": "pdone/lx-music-source",
+        "commit": "000578ddca4a676012cf735abdc3489efdc67c74",
+        "path": "lx/latest.js",
+        "url": "https://raw.githubusercontent.com/pdone/lx-music-source/000578ddca4a676012cf735abdc3489efdc67c74/lx/latest.js",
+        "version": "7"
+      },
+      "decision": "added",
+      "publishedFile": "sources/lx/独家音源.js",
+      "publishedSha256": "79a5c4703e060eaff6f8ffaac05d2fadf5e22b7729f6fe151d1cca2fa3935171"
+    },
+    {
+      "name": "全豆要[聚合音源]",
+      "sha256": "213f73232562b528826dd97601e74212b517014e06fd614b28d8d8aa0dda400c",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "resolved": true,
+          "status": 404,
+          "bytes": 138,
+          "audio": false,
+          "contentType": "text/html"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "resolved": true,
+          "status": 403,
+          "bytes": 0,
+          "audio": false,
+          "contentType": "application/octet-stream"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "resolved": true,
+          "status": 200,
+          "bytes": 39,
+          "audio": false,
+          "contentType": "application/json; charset=utf-8"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "resolved": true,
+          "status": 404,
+          "bytes": 146,
+          "audio": false,
+          "contentType": "text/html"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "wy",
+        "tx",
+        "kw",
+        "kg",
+        "mg",
+        "qsvip"
+      ],
+      "upstream": {
+        "repository": "pdone/lx-music-source",
+        "commit": "000578ddca4a676012cf735abdc3489efdc67c74",
+        "path": "qdy/latest.js",
+        "url": "https://raw.githubusercontent.com/pdone/lx-music-source/000578ddca4a676012cf735abdc3489efdc67c74/qdy/latest.js",
+        "version": "9.3 93特供版 DeepSeek优化"
+      },
+      "decision": "retain-existing-or-skip-older-variant"
+    },
+    {
+      "name": "Hei Music聚合源",
+      "sha256": "78d3cad4f64913358112edd71c4d32842048135b9105c36e76842a126a180ef2",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg; charset=UTF-8"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kw",
+        "kg",
+        "tx",
+        "wy",
+        "mg"
+      ],
+      "upstream": {
+        "repository": "ShaneLee-9/lx-music-source-merge",
+        "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+        "path": "checked/Hei Music v2.2.1-fix.js",
+        "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/Hei%20Music%20v2.2.1-fix.js",
+        "version": "v2.2.1-fix"
+      },
+      "decision": "added",
+      "localChanges": [
+        "Disabled optional telemetry/panel requests",
+        "Disabled optional public-IP lookup"
+      ],
+      "modifiedVerification": {
+        "name": "Hei Music聚合源",
+        "sha256": "00c9bdbd57512d22d17874ccd7a0c079ca5ea9b1dee2dd4b861f1c44c42549c8",
+        "initialized": true,
+        "attempts": [
+          {
+            "source": "wy",
+            "id": "186016",
+            "quality": "128k",
+            "resolved": true,
+            "status": 206,
+            "bytes": 8192,
+            "audio": true,
+            "contentType": "audio/mpeg; charset=UTF-8"
+          },
+          {
+            "source": "kw",
+            "id": "228908",
+            "quality": "128k",
+            "resolved": true,
+            "status": 206,
+            "bytes": 8192,
+            "audio": true,
+            "contentType": "audio/mpeg"
+          },
+          {
+            "source": "tx",
+            "id": "97773",
+            "quality": "128k",
+            "resolved": true,
+            "status": 206,
+            "bytes": 8192,
+            "audio": true,
+            "contentType": "audio/mpeg"
+          },
+          {
+            "source": "kg",
+            "id": "32100650",
+            "quality": "128k",
+            "resolved": true,
+            "status": 206,
+            "bytes": 8192,
+            "audio": true,
+            "contentType": "audio/mpeg"
+          },
+          {
+            "source": "mg",
+            "id": "3790007",
+            "quality": "128k",
+            "resolved": true,
+            "status": 206,
+            "bytes": 8192,
+            "audio": true,
+            "contentType": "audio/mpeg"
+          }
+        ],
+        "errors": [],
+        "platforms": [
+          "kw",
+          "kg",
+          "tx",
+          "wy",
+          "mg"
+        ]
+      },
+      "publishedFile": "sources/hei/Hei Music聚合源.js",
+      "publishedSha256": "00c9bdbd57512d22d17874ccd7a0c079ca5ea9b1dee2dd4b861f1c44c42549c8"
+    },
+    {
+      "name": "Hei Music源",
+      "sha256": "a8d482fd57fde03e73b2ff179e04a2773e79fe59b1cd13b10bacf1992e93ba50",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "所有API源均失败:\nchksz: chksz 获取失败\nHUIBQ: unknow error\ngdstudio: gdstudio 获取失败\nlerd: lerd code=undefined: undefined"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "error": "所有API源均失败:\nHUIBQ: unknow error\ngdstudio: gdstudio 获取失败\nlerd: lerd code=undefined: undefined\ncenguigui: cenguigui 获取失败"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "error": "所有API源均失败:\nHUIBQ: unknow error\ngdstudio: gdstudio 获取失败\nlerd: lerd code=undefined: undefined"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "error": "所有API源均失败:\nHUIBQ: unknow error\ngdstudio: gdstudio 获取失败\nlerd: lerd code=undefined: undefined"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "error": "所有API源均失败:\nHUIBQ: unknow error\ngdstudio: gdstudio 获取失败\nlerd: lerd code=undefined: undefined"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kw",
+        "kg",
+        "tx",
+        "wy",
+        "mg"
+      ],
+      "upstream": {
+        "repository": "ShaneLee-9/lx-music-source-merge",
+        "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+        "path": "checked/Hei Music 源V1.0.0.js",
+        "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/Hei%20Music%20%E6%BA%90V1.0.0.js",
+        "version": "1.0.0"
+      },
+      "decision": "not-merged-no-passing-sample"
+    },
+    {
+      "name": "lx-玉宁熙-Pro",
+      "sha256": "9ddcc32f55ba1981166f16bf55c03c43165b098932208a5fb4c9c64192650f0c",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "网易云所有接口均获取失败"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "error": "QQ音乐所有接口均无可用地址"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "error": "酷狗所有接口未获取到有效播放链接"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "error": "服务器错误 503: [URL]"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "tx",
+        "wy",
+        "kw",
+        "kg",
+        "mg"
+      ],
+      "upstream": {
+        "repository": "pdone/lx-music-source",
+        "commit": "000578ddca4a676012cf735abdc3489efdc67c74",
+        "path": "yuningxi/latest.js",
+        "url": "https://raw.githubusercontent.com/pdone/lx-music-source/000578ddca4a676012cf735abdc3489efdc67c74/yuningxi/latest.js",
+        "version": "v1.2.2"
+      },
+      "decision": "retain-existing-or-skip-older-variant"
+    },
+    {
+      "name": "gdstudio音乐源",
+      "sha256": "05631b29ff18a4b8688b4464abf0f38952474cd4d8d6c4149c365b0190c7fd28",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg; charset=UTF-8"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "error": "Search keyword is empty"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "error": "Invalid search response"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg; charset=UTF-8"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg; charset=UTF-8"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "wy",
+        "kw",
+        "tx",
+        "kg",
+        "mg"
+      ],
+      "upstream": {
+        "repository": "ShaneLee-9/lx-music-source-merge",
+        "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+        "path": "checked/gdstudio音乐源 v1.0.1（仅支持网易）.js",
+        "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/gdstudio%E9%9F%B3%E4%B9%90%E6%BA%90%20v1.0.1%EF%BC%88%E4%BB%85%E6%94%AF%E6%8C%81%E7%BD%91%E6%98%93%EF%BC%89.js",
+        "version": "1.0.1"
+      },
+      "decision": "added",
+      "publishedFile": "sources/gd-studio/gdstudio音乐源.js",
+      "publishedSha256": "05631b29ff18a4b8688b4464abf0f38952474cd4d8d6c4149c365b0190c7fd28"
+    },
+    {
+      "name": "👖裤佬SVIP音源",
+      "sha256": "7ba2ca2c4b5ec2b0931f1a4f7f542a19e844f40f2765b661d0aee3b38e63ad4a",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "resolved": true,
+          "status": 404,
+          "bytes": 138,
+          "audio": false,
+          "contentType": "text/html"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "resolved": true,
+          "status": 403,
+          "bytes": 0,
+          "audio": false,
+          "contentType": "application/octet-stream"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "resolved": true,
+          "status": 200,
+          "bytes": 39,
+          "audio": false,
+          "contentType": "application/json; charset=utf-8"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "resolved": true,
+          "status": 404,
+          "bytes": 146,
+          "audio": false,
+          "contentType": "text/html"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "wy",
+        "tx",
+        "kw",
+        "kg",
+        "mg",
+        "qsvip"
+      ],
+      "upstream": {
+        "repository": "ShaneLee-9/lx-music-source-merge",
+        "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+        "path": "checked/(推荐)裤佬SVIP音源（酷狗挂了）.js",
+        "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/(%E6%8E%A8%E8%8D%90)%E8%A3%A4%E4%BD%ACSVIP%E9%9F%B3%E6%BA%90%EF%BC%88%E9%85%B7%E7%8B%97%E6%8C%82%E4%BA%86%EF%BC%89.js",
+        "version": "✈️TG频道https://t.me/stymei"
+      },
+      "decision": "retain-existing-or-skip-older-variant"
+    },
+    {
+      "name": "𝖧౿ᥣᥣ𝗈 Ԝ𝗈𝗋ᥣᑯ",
+      "sha256": "32ff5f7b44c1d7d038cb548cb6fac0349befb538bdae26fb658684115e823427",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg; charset=UTF-8"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kw",
+        "kg",
+        "tx",
+        "wy",
+        "mg",
+        "local"
+      ],
+      "upstream": {
+        "repository": "ShaneLee-9/lx-music-source-merge",
+        "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+        "path": "checked/HelloWorld音源(中秋快乐).js",
+        "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/HelloWorld%E9%9F%B3%E6%BA%90(%E4%B8%AD%E7%A7%8B%E5%BF%AB%E4%B9%90).js",
+        "version": "260925"
+      },
+      "decision": "retain-existing-or-skip-older-variant"
+    },
+    {
+      "name": "星海音乐源",
+      "sha256": "807d6157e4fd7cdd05b8727efd73778b54a3b05a0b5e4c6bb28dedc0668e94e9",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "GD接口失败: GD接口状态200，未返回音频"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "error": "后端失败: Transport 28"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "error": "后端失败: Transport 28"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "error": "后端失败: Transport 28"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "wy",
+        "tx",
+        "kg",
+        "kw",
+        "mg",
+        "qs"
+      ],
+      "upstream": {
+        "repository": "pdone/lx-music-source",
+        "commit": "000578ddca4a676012cf735abdc3489efdc67c74",
+        "path": "xinghai/latest.js",
+        "url": "https://raw.githubusercontent.com/pdone/lx-music-source/000578ddca4a676012cf735abdc3489efdc67c74/xinghai/latest.js",
+        "version": "v3.2.15"
+      },
+      "decision": "retain-existing-or-skip-older-variant"
+    },
+    {
+      "name": "lx-玉宁熙-Pro",
+      "sha256": "5dd4752c16c17f7bab45dccf87dcd3f3c2a6e251e62bad68bde9554bfd275f79",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "获取URL失败, WyServerError(url为空): {\"data\":[{\"id\":186016,\"url\":null,\"br\":0,\"size\":0,\"md5\":null,\"code\":404,\"expi\":1200,\"type\":null,\"gain\":0.0,\"peak\":null,\"closedGain\":0.0,\"closedPeak\":0.0,\"fee\":0,\"uf\":null,\"payed\":0,\"flag\":1605888,\"canExtend\":fa"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "error": "QQ音乐接口无可用地址"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "error": "酷狗接口未获取到有效播放链接"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "error": "咪咕音源获取地址失败：Transport 7"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "tx",
+        "wy",
+        "kw",
+        "kg",
+        "mg"
+      ],
+      "upstream": {
+        "repository": "ShaneLee-9/lx-music-source-merge",
+        "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+        "path": "checked/lx-玉宁熙1.2.5.js",
+        "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/lx-%E7%8E%89%E5%AE%81%E7%86%991.2.5.js",
+        "version": "v1.2.5"
+      },
+      "decision": "updated",
+      "publishedFile": "sources/yuningxi/lx-玉宁熙-Pro.js",
+      "publishedSha256": "5dd4752c16c17f7bab45dccf87dcd3f3c2a6e251e62bad68bde9554bfd275f79"
+    },
+    {
+      "name": "全豆要[聚合音源]",
+      "sha256": "e501fa90f8136a714e0b8e7b44a50d9ee344083a9a5164da7f87a07b6f763650",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "resolved": true,
+          "status": 404,
+          "bytes": 138,
+          "audio": false,
+          "contentType": "text/html"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "resolved": true,
+          "status": 403,
+          "bytes": 0,
+          "audio": false,
+          "contentType": "application/octet-stream"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "resolved": true,
+          "status": 200,
+          "bytes": 39,
+          "audio": false,
+          "contentType": "application/json; charset=utf-8"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "resolved": true,
+          "status": 404,
+          "bytes": 146,
+          "audio": false,
+          "contentType": "text/html"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "wy",
+        "tx",
+        "kw",
+        "kg",
+        "mg",
+        "qsvip"
+      ],
+      "upstream": {
+        "repository": "ShaneLee-9/lx-music-source-merge",
+        "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+        "path": "checked/全豆要-聚合音源-V4.1（酷狗挂了）.js",
+        "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/%E5%85%A8%E8%B1%86%E8%A6%81-%E8%81%9A%E5%90%88%E9%9F%B3%E6%BA%90-V4.1%EF%BC%88%E9%85%B7%E7%8B%97%E6%8C%82%E4%BA%86%EF%BC%89.js",
+        "version": "v4.1"
+      },
+      "decision": "retain-existing-or-skip-older-variant"
+    },
+    {
+      "name": "墨澜聚合音源",
+      "sha256": "02a218e45786197b37ee4c9dbf409bbac2458c6166f5dfcd4b545db04d5d4a52",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "所有后端均失败（共1个）\nikun网易云: ikun网易云: WyServerError(url为空): {\"data\":[{\"id\":186016,\"url\":null,\"br\":0,\"size\":0,\"md5\":null,\"code\":404,\"expi\":1200,\"type\":null,\"gain\":0.0,\"peak\":null,\"closedGain\":0.0,\"closedPeak\":0.0,\"fee\":0,\"uf\":null,\"payed\":0,\"flag\":"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": false,
+          "contentType": "application/octet-stream"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "error": "所有后端均失败（共3个）\n海堂KG: 海堂KG: 无数据\n白姬KG: 白姬KG: 无数据\n星海KG: 星海KG: 当前请求量过大，未授权调用暂时受限，请稍后重试。推荐使用星海音乐源：[URL]"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "error": "所有后端均失败（共2个）\n云记咪咕(海堂): [URL] -> 当前版本已停止服务，请升级到最新版本后重试 | [URL] -> 当前版本已停止服务，请升级到最新版本后重试\n星海主后端: 星海主后端: 当前请求量过大，未授权调用暂时受限，请稍后重试。推荐使用星海音乐源：[URL]"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "tx",
+        "wy",
+        "kw",
+        "kg",
+        "mg",
+        "qs"
+      ],
+      "upstream": {
+        "repository": "ShaneLee-9/lx-music-source-merge",
+        "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+        "path": "checked/墨澜音乐源v2.3.5.js",
+        "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/%E5%A2%A8%E6%BE%9C%E9%9F%B3%E4%B9%90%E6%BA%90v2.3.5.js",
+        "version": "2.3.5"
+      },
+      "decision": "retain-existing-or-skip-older-variant"
+    },
+    {
+      "name": "安妮独家音源",
+      "sha256": "337376552140487185c66eb3d7ffc2fc162135ed6f5a4fe683ee37f1b1799d2a",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "获取URL失败, WyServerError(url为空): {\"data\":[{\"id\":186016,\"url\":null,\"br\":0,\"size\":0,\"md5\":null,\"code\":404,\"expi\":1200,\"type\":null,\"gain\":0.0,\"peak\":null,\"closedGain\":0.0,\"closedPeak\":0.0,\"fee\":0,\"uf\":null,\"payed\":0,\"flag\":1605888,\"canExtend\":fa"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "error": "当前版本已停止服务，请升级到最新版本后重试"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "error": "当前版本已停止服务，请升级到最新版本后重试"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kg",
+        "tx",
+        "kw",
+        "wy"
+      ],
+      "upstream": {
+        "repository": "ShaneLee-9/lx-music-source-merge",
+        "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+        "path": "checked/安妮独家音源 v5.js",
+        "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/%E5%AE%89%E5%A6%AE%E7%8B%AC%E5%AE%B6%E9%9F%B3%E6%BA%90%20v5.js",
+        "version": "v5"
+      },
+      "decision": "added",
+      "publishedFile": "sources/annie/安妮独家音源.js",
+      "publishedSha256": "337376552140487185c66eb3d7ffc2fc162135ed6f5a4fe683ee37f1b1799d2a"
+    },
+    {
+      "name": "星澜聚合音源 (StellarWave)",
+      "sha256": "c27f8d8ff94b9cdc02721430c46632f51a7c2a15ef0618e8c3bbfc6c08ef0092",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "所有后端均失败（共 9 个）\n网易云官方: 无数据\nikun网易云: WyServerError(url为空): {\"data\":[{\"id\":186016,\"url\":null,\"br\":0,\"size\":0,\"md5\":null,\"code\":404,\"expi\":1200,\"type\":null,\"gain\":0.0,\"peak\":null,\"closedGain\":0.0,\"closedPeak\":0.0,\"fee\":0,\"uf\":null,\"payed\":0,\"fl"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 400,
+          "bytes": 57,
+          "audio": false,
+          "contentType": "application/json"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "error": "所有后端均失败（共 8 个）\n星海主后端: 当前请求量过大，未授权调用暂时受限，请稍后重试。推荐使用星海音乐源：[URL]\n长青海棠: 无数据\n酷狗官方: 无数据\n念心KG: 念心KG: 无数据\nHYWmusic: HYWmusic: 无数据\n星海酷狗: Transport 28\n念心酷狗: 念心 失败\nFFAPI: 返回无效URL"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "error": "所有后端均失败（共 6 个）\n星海主后端: 当前请求量过大，未授权调用暂时受限，请稍后重试。推荐使用星海音乐源：[URL]\nMigu直接源: 无数据\nMigu API: 无数据\nHYWmusic: HYWmusic: 无数据\n星海咪咕: Transport 28\nFFAPI: 返回无效URL"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "tx",
+        "wy",
+        "kw",
+        "kg",
+        "mg"
+      ],
+      "upstream": {
+        "repository": "ShaneLee-9/lx-music-source-merge",
+        "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+        "path": "checked/stellarwave-v4.0.0（酷我稍后支持）.js",
+        "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/stellarwave-v4.0.0%EF%BC%88%E9%85%B7%E6%88%91%E7%A8%8D%E5%90%8E%E6%94%AF%E6%8C%81%EF%BC%89.js",
+        "version": "v4.0.0"
+      },
+      "decision": "added",
+      "publishedFile": "sources/stellarwave/星澜聚合音源 (StellarWave).js",
+      "publishedSha256": "c27f8d8ff94b9cdc02721430c46632f51a7c2a15ef0618e8c3bbfc6c08ef0092"
+    },
+    {
+      "name": "念心音源",
+      "sha256": "86f6c05f8fef7169fd010a1da362824b5c4b7f5695f89d384fe53564f3fa88d2",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "resolved": true,
+          "status": 403,
+          "bytes": 39,
+          "audio": false,
+          "contentType": "application/json; charset=utf-8"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "resolved": true,
+          "status": 200,
+          "bytes": 0,
+          "audio": false,
+          "contentType": "application/json; charset=utf-8"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kg",
+        "tx",
+        "wy",
+        "kw",
+        "mg"
+      ],
+      "upstream": {
+        "repository": "ShaneLee-9/lx-music-source-merge",
+        "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+        "path": "checked/念心音源 v1.0.2.js",
+        "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/%E5%BF%B5%E5%BF%83%E9%9F%B3%E6%BA%90%20v1.0.2.js",
+        "version": "1.0.2"
+      },
+      "decision": "added",
+      "publishedFile": "sources/nianxin/念心音源.js",
+      "publishedSha256": "86f6c05f8fef7169fd010a1da362824b5c4b7f5695f89d384fe53564f3fa88d2"
+    },
+    {
+      "name": "屿溪-终章",
+      "sha256": "b45e05b8c043f0e715f9856ea400707bdf131b9c05b5014e1de9d0821a9972a7",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "当前版本已停止服务，请升级到最新版本后重试"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "error": "当前版本已停止服务，请升级到最新版本后重试"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "error": "当前版本已停止服务，请升级到最新版本后重试"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "error": "当前版本已停止服务，请升级到最新版本后重试"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "error": "当前版本已停止服务，请升级到最新版本后重试"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kg",
+        "tx",
+        "wy",
+        "kw",
+        "mg"
+      ],
+      "upstream": {
+        "repository": "ShaneLee-9/lx-music-source-merge",
+        "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+        "path": "checked/屿溪-终章.js",
+        "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/%E5%B1%BF%E6%BA%AA-%E7%BB%88%E7%AB%A0.js",
+        "version": "0.0.0"
+      },
+      "decision": "not-merged-no-passing-sample"
+    },
+    {
+      "name": "收集の聚合接口(LX版)",
+      "sha256": "cd4b68b133ef8de80a75ac6f9c5d9c80b383e1fe3c364f4366553d18ca9418a5",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "获取播放链接失败"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "error": "Transport 60"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "error": "Transport 92"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "tx",
+        "wy",
+        "kw"
+      ],
+      "upstream": {
+        "repository": "ShaneLee-9/lx-music-source-merge",
+        "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+        "path": "checked/收集の聚合接口.js",
+        "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/%E6%94%B6%E9%9B%86%E3%81%AE%E8%81%9A%E5%90%88%E6%8E%A5%E5%8F%A3.js",
+        "version": "1.0.0-beta"
+      },
+      "decision": "not-merged-no-passing-sample"
+    },
+    {
+      "name": "回避聚合 (HuiBi Aggregate)",
+      "sha256": "9c35f66bf39c6b66e6dc64d3df27535f329a5e146fe80921406f5db910f63e33",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "resolved": true,
+          "status": 200,
+          "bytes": 107191,
+          "audio": false,
+          "contentType": "text/html;charset=utf8"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 400,
+          "bytes": 57,
+          "audio": false,
+          "contentType": "application/json"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "error": "所有音质尝试失败（从 128k 降至最低）"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "error": "所有音质尝试失败（从 128k 降至最低）"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "tx",
+        "wy",
+        "kw",
+        "kg",
+        "mg"
+      ],
+      "upstream": {
+        "repository": "ShaneLee-9/lx-music-source-merge",
+        "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+        "path": "checked/回避聚合V0.0.1.js",
+        "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/%E5%9B%9E%E9%81%BF%E8%81%9A%E5%90%88V0.0.1.js",
+        "version": "0.0.1"
+      },
+      "decision": "added",
+      "publishedFile": "sources/huibi/回避聚合 (HuiBi Aggregate).js",
+      "publishedSha256": "9c35f66bf39c6b66e6dc64d3df27535f329a5e146fe80921406f5db910f63e33"
+    },
+    {
+      "name": "溯音音源",
+      "sha256": "d10c9c28823b5c2ce4e3fef3b25b8ff16d2d165bd0883e2b866900ef7c0dc0ee",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "获取失败"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "error": "需要歌曲名"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "error": "所有音质尝试均失败"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "error": "未找到咪咕音乐链接"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "tx",
+        "wy",
+        "kw",
+        "mg"
+      ],
+      "upstream": {
+        "repository": "ShaneLee-9/lx-music-source-merge",
+        "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+        "path": "checked/溯音音源_v1.js",
+        "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/%E6%BA%AF%E9%9F%B3%E9%9F%B3%E6%BA%90_v1.js",
+        "version": "v1"
+      },
+      "decision": "not-merged-no-passing-sample"
+    },
+    {
+      "name": "稳定版音源 v1.0.3",
+      "sha256": "5e5f39c1a51b6c005104f382b22cd0a3e0af2ba30c7003e4fd03bfcf9f6a088a",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "获取链接失败，可能是该歌曲无版权或接口维护"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "error": "Transport 60"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "error": "Transport 92"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "wy",
+        "tx",
+        "kw"
+      ],
+      "upstream": {
+        "repository": "ShaneLee-9/lx-music-source-merge",
+        "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+        "path": "checked/稳定版音源 v1.0.3.js",
+        "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/%E7%A8%B3%E5%AE%9A%E7%89%88%E9%9F%B3%E6%BA%90%20v1.0.3.js",
+        "version": "1.0.3"
+      },
+      "decision": "not-merged-no-passing-sample"
+    },
+    {
+      "name": "星海音乐源",
+      "sha256": "669b235196af1f3e1446636ca99e964fe80e94641ee1f67e67d42ae114e64d63",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "GD接口失败: GD接口状态200，未返回音频"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "error": "后端失败: Transport 28"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "error": "后端失败: Transport 28"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "error": "后端失败: Transport 28"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "error": "后端失败: Transport 28"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "wy",
+        "tx",
+        "kg",
+        "kw",
+        "mg"
+      ],
+      "upstream": {
+        "repository": "ShaneLee-9/lx-music-source-merge",
+        "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+        "path": "checked/xinghai-music-sourcev2.3.13.js",
+        "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/xinghai-music-sourcev2.3.13.js",
+        "version": "v3.2.13"
+      },
+      "decision": "not-merged-no-passing-sample"
+    },
+    {
+      "name": "统一音乐源",
+      "sha256": "a18bdd58fd3f5e26d00c8c18d7b0825367f54a1c01bb8f8321ac7f5d374f1a7c",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "暂不支持此音源"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "error": "暂不支持此音源"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kw",
+        "wy"
+      ],
+      "upstream": {
+        "repository": "ShaneLee-9/lx-music-source-merge",
+        "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+        "path": "checked/统一音乐源.js",
+        "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/%E7%BB%9F%E4%B8%80%E9%9F%B3%E4%B9%90%E6%BA%90.js",
+        "version": "1.0.0"
+      },
+      "decision": "not-merged-no-passing-sample"
+    },
+    {
+      "name": "聚合API接口 (CF)",
+      "sha256": "a6b4d7fdb7896df7b6ab438ea67b21624a2552ea1366ea76ffb4b0021e0c8171",
+      "initialized": false,
+      "attempts": [],
+      "errors": [
+        "Error: 脚本初始化失败"
+      ],
+      "platforms": [],
+      "upstream": {
+        "repository": "ShaneLee-9/lx-music-source-merge",
+        "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+        "path": "checked/新聚合APIV3.js",
+        "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/%E6%96%B0%E8%81%9A%E5%90%88APIV3.js",
+        "version": "3"
+      },
+      "decision": "not-merged-no-passing-sample"
+    },
+    {
+      "name": "👖裤佬SVIP音源(二改整合版)",
+      "sha256": "58e8cb1403a0eb394d6405dc560c3cd4329fa62aa19c5d753d048a9a6e626d97",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "所有接口均失败: ChKSz网易: ChKSz未配置apikey; GD Studio: GD Studio获取失败; c.wwwweb.top: WyServerError(url为空): {\"data\":[{\"id\":186016,\"url\":null,\"br\":0,\"size\":0,\"md5\":null,\"code\":404,\"expi\":1200,\"type\":null,\"gain\":0.0,\"peak\":null,\"closedGain\":0.0,\"closedPe"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "error": "所有接口均失败: 酷狗安妮: 酷狗安妮获取失败(code:undefined); 星海后端: 当前请求量过大，未授权调用暂时受限，请稍后重试。推荐使用星海音乐源：[URL] 星海后端(备): 星海后端获取失败(code:undefined)"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "error": "所有接口均失败: 星海后端: 当前请求量过大，未授权调用暂时受限，请稍后重试。推荐使用星海音乐源：[URL] 星海后端(备): 星海后端获取失败(code:undefined)"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "wy",
+        "tx",
+        "kw",
+        "kg",
+        "mg"
+      ],
+      "upstream": {
+        "repository": "ShaneLee-9/lx-music-source-merge",
+        "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+        "path": "checked/裤佬SVIP音源(二改整合版) v3.0.0.js",
+        "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/%E8%A3%A4%E4%BD%ACSVIP%E9%9F%B3%E6%BA%90(%E4%BA%8C%E6%94%B9%E6%95%B4%E5%90%88%E7%89%88)%20v3.0.0.js",
+        "version": "v3.0.0 | 2026-08-19"
+      },
+      "decision": "added",
+      "publishedFile": "sources/kulao/👖裤佬SVIP音源(二改整合版).js",
+      "publishedSha256": "58e8cb1403a0eb394d6405dc560c3cd4329fa62aa19c5d753d048a9a6e626d97"
+    },
+    {
+      "name": "非常刀",
+      "sha256": "49486cab064e64d5ad63723e670c44ee55eadadcc790ccf493351fbde64284d7",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "所有音源均失败"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "error": "所有音源均失败"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "error": "所有音源均失败"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "error": "所有音源均失败"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "wy",
+        "tx",
+        "kw",
+        "kg",
+        "mg",
+        "qs"
+      ],
+      "upstream": {
+        "repository": "ShaneLee-9/lx-music-source-merge",
+        "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+        "path": "checked/非常刀 v5.js",
+        "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/%E9%9D%9E%E5%B8%B8%E5%88%80%20v5.js",
+        "version": "v5"
+      },
+      "decision": "added",
+      "publishedFile": "sources/feichangdao/非常刀.js",
+      "publishedSha256": "49486cab064e64d5ad63723e670c44ee55eadadcc790ccf493351fbde64284d7"
+    },
+    {
+      "name": "聚合API接口 (CF)",
+      "sha256": "756f54cd238eb0203af826522b7005d436a3c9b40b544b6e673ff5f05cdb36c7",
+      "initialized": false,
+      "attempts": [],
+      "errors": [
+        "Error: 脚本初始化失败"
+      ],
+      "platforms": [],
+      "upstream": {
+        "repository": "ShaneLee-9/lx-music-source-merge",
+        "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+        "path": "checked/聚合API接口 (CF) v3.js",
+        "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/%E8%81%9A%E5%90%88API%E6%8E%A5%E5%8F%A3%20(CF)%20v3.js",
+        "version": "3"
+      },
+      "decision": "not-merged-no-passing-sample"
+    },
+    {
+      "name": "豆包定制[聚合音源]",
+      "sha256": "e6352c42ed3e0162a78f9c8bf945301e0ba73d1255a3b6bf04e9678d1aa8231d",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "NOT_FOUND: 所有源均失败 [[128k] NOT_FOUND: 溯音163获取失败; NETWORK_ERROR: Transport 47; LINK_EXPIRED: 溯音酷我签名URL已过期(CDN 410)，不可播]"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "error": "NOT_FOUND: 所有源均失败 [[128k] 溯音酷我: LINK_EXPIRED: 溯音酷我签名URL已过期(CDN 410)，不可播]"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "error": "NOT_FOUND: 所有源均失败 [[128k] 溯音酷我: LINK_EXPIRED: 溯音酷我签名URL已过期(CDN 410)，不可播]"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "error": "NOT_FOUND: 所有源均失败 [[128k] 溯音酷我: LINK_EXPIRED: 溯音酷我签名URL已过期(CDN 410)，不可播]"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "wy",
+        "tx",
+        "kw",
+        "kg",
+        "mg"
+      ],
+      "upstream": {
+        "repository": "luanmuc/lx-music-source",
+        "commit": "9093ff071a8fcc12d94b66330d3a175632cf10fe",
+        "path": "lx-source.js",
+        "url": "https://raw.githubusercontent.com/luanmuc/lx-music-source/9093ff071a8fcc12d94b66330d3a175632cf10fe/lx-source.js",
+        "version": "27.3 全面审计修复版（S1缓存返回类型/S4封面字段+UA/S5工程脚本；运行时同 v27.2）"
+      },
+      "decision": "added",
+      "publishedFile": "sources/doubao/豆包定制[聚合音源].js",
+      "publishedSha256": "e6352c42ed3e0162a78f9c8bf945301e0ba73d1255a3b6bf04e9678d1aa8231d"
+    },
+    {
+      "name": "HYWmusic_公益版",
+      "sha256": "9f1cb9791c9abda54b34f5c5b945fa7e0b992702523694f66d6128a655492f86",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg; charset=UTF-8"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 410,
+          "bytes": 0,
+          "audio": false
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "kw",
+        "tx",
+        "wy",
+        "mg",
+        "qs",
+        "bili",
+        "ytb",
+        "xm",
+        "kg"
+      ],
+      "upstream": {
+        "repository": "shiliu6924/lx-music-source",
+        "commit": "2d856c23216885f04c7aee91c9203e959e76c210",
+        "path": "HYW1.2.0.js",
+        "url": "https://raw.githubusercontent.com/shiliu6924/lx-music-source/2d856c23216885f04c7aee91c9203e959e76c210/HYW1.2.0.js",
+        "version": "v1.2.0"
+      },
+      "decision": "retain-existing-or-skip-older-variant"
+    },
+    {
+      "name": "西瓜聚合源",
+      "sha256": "f9a084498536d3467b0ee5647b107f491ce1f60bf362ec34b9e8f625d263e84d",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "所有音源均失败: CHKSZ所有音质失败; 星海主未返回URL; 溯音163获取失败; 长青SVIP: HTTP 404; 收集聚合: HTTP 521; 念心SVIP: HTTP 404; 星海备: 请求错误: Transport 6; Huibq: HTTP 503; HYWmusic: 请求错误: Transport 28; fish-music: fish-music获取失败; 汽水VIP: HTTP 404"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "error": "溯音酷我需要歌曲名"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "error": "所有音源均失败: 溯音QQ所有码率失败; HTTP 400; HTTP 403; 收集聚合: 请求错误: Transport 92; 念心SVIP: HTTP 404; 星海备: 请求错误: Transport 6; Huibq: HTTP 503; HYWmusic: 请求错误: Transport 28; fish-music: fish-music获取失败; 汽水VIP: HTTP 404"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "error": "所有音源均失败: HTTP 429; 长青未返回URL; zrcdy所有搜索词失败; HTTP 404; HTTP 400; 请求错误: Transport 6; HTTP 503; 请求错误: Transport 28; fish-music获取失败"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "error": "所有音源均失败: HTTP 400; 溯音咪咕失败; HTTP 404; 念心SVIP: HTTP 404; 星海备: 请求错误: Transport 6; Huibq: HTTP 503; HYWmusic: 请求错误: Transport 28; fish-music: fish-music获取失败"
+        }
+      ],
+      "errors": [
+        "HTTP 400"
+      ],
+      "platforms": [
+        "wy",
+        "tx",
+        "kw",
+        "kg",
+        "mg"
+      ],
+      "upstream": {
+        "repository": "ShaneLee-9/lx-music-source-merge",
+        "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+        "path": "checked/西瓜聚合.js",
+        "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/%E8%A5%BF%E7%93%9C%E8%81%9A%E5%90%88.js",
+        "version": "v1.40"
+      },
+      "decision": "not-merged-no-passing-sample"
+    }
+  ],
+  "checkedOn": "2026-11-01",
+  "timezone": "Asia/Shanghai",
+  "scope": "49 downloads from 4 repositories, 41 unique SHA-256 scripts; 128k requests on five platform samples in music-samples.json; simulated LX runtime/audio-header smoke test only. No full-track or all-quality guarantee.",
+  "inventory": [
+    {
+      "repository": "pdone/lx-music-source",
+      "commit": "000578ddca4a676012cf735abdc3489efdc67c74",
+      "committedAt": "2026-10-29T05:42:10Z",
+      "path": "changqing/latest.js",
+      "url": "https://raw.githubusercontent.com/pdone/lx-music-source/000578ddca4a676012cf735abdc3489efdc67c74/changqing/latest.js",
+      "sha256": "6a942987c1e111a113376fbf8ff9fb677c487058f16ce792779c72f69c4ed6de",
+      "name": "长青SVIP音源",
+      "version": "1.3.0"
+    },
+    {
+      "repository": "pdone/lx-music-source",
+      "commit": "000578ddca4a676012cf735abdc3489efdc67c74",
+      "committedAt": "2026-10-29T05:42:10Z",
+      "path": "flower/latest.js",
+      "url": "https://raw.githubusercontent.com/pdone/lx-music-source/000578ddca4a676012cf735abdc3489efdc67c74/flower/latest.js",
+      "sha256": "15c166987edde41cf5917b3160c0ab253ff17e5e6bc6765c9eaa11a822c4aa97",
+      "name": "野花🌷",
+      "version": "1"
+    },
+    {
+      "repository": "pdone/lx-music-source",
+      "commit": "000578ddca4a676012cf735abdc3489efdc67c74",
+      "committedAt": "2026-10-29T05:42:10Z",
+      "path": "fish/latest.js",
+      "url": "https://raw.githubusercontent.com/pdone/lx-music-source/000578ddca4a676012cf735abdc3489efdc67c74/fish/latest.js",
+      "sha256": "a711e152c4f28c32fd46b38839a70f476e0b669905773a90e2ce63246136af47",
+      "name": "fish_music",
+      "version": "1.9.0"
+    },
+    {
+      "repository": "pdone/lx-music-source",
+      "commit": "000578ddca4a676012cf735abdc3489efdc67c74",
+      "committedAt": "2026-10-29T05:42:10Z",
+      "path": "grass/latest.js",
+      "url": "https://raw.githubusercontent.com/pdone/lx-music-source/000578ddca4a676012cf735abdc3489efdc67c74/grass/latest.js",
+      "sha256": "d694275f382427d3fef809fc77338ef014dc330af710cca6b3233ece8740510f",
+      "name": "野草🌾",
+      "version": "1"
+    },
+    {
+      "repository": "pdone/lx-music-source",
+      "commit": "000578ddca4a676012cf735abdc3489efdc67c74",
+      "committedAt": "2026-10-29T05:42:10Z",
+      "path": "helloworld/latest.js",
+      "url": "https://raw.githubusercontent.com/pdone/lx-music-source/000578ddca4a676012cf735abdc3489efdc67c74/helloworld/latest.js",
+      "sha256": "12d7a289647b4f4ff8b94d4b27d06a55b7ca9b9be6ac89c602cac2052eced723",
+      "name": "𝖧౿ᥣᥣ𝗈 Ԝ𝗈𝗋ᥣᑯ",
+      "version": "260925"
+    },
+    {
+      "repository": "pdone/lx-music-source",
+      "commit": "000578ddca4a676012cf735abdc3489efdc67c74",
+      "committedAt": "2026-10-29T05:42:10Z",
+      "path": "huanyin/latest.js",
+      "url": "https://raw.githubusercontent.com/pdone/lx-music-source/000578ddca4a676012cf735abdc3489efdc67c74/huanyin/latest.js",
+      "sha256": "4a81129240ecae3ebf6b42f28c73e2d37bbcb6fccac9a73a401d90cdd36bee5f",
+      "name": "幻音音源",
+      "version": "v3"
+    },
+    {
+      "repository": "pdone/lx-music-source",
+      "commit": "000578ddca4a676012cf735abdc3489efdc67c74",
+      "committedAt": "2026-10-29T05:42:10Z",
+      "path": "huibq/latest.js",
+      "url": "https://raw.githubusercontent.com/pdone/lx-music-source/000578ddca4a676012cf735abdc3489efdc67c74/huibq/latest.js",
+      "sha256": "a9adeb456690b523008038224091cee31977606302d79082eb06adb3c75c9146",
+      "name": "Huibq_lxmusic源",
+      "version": "v1.2.0"
+    },
+    {
+      "repository": "pdone/lx-music-source",
+      "commit": "000578ddca4a676012cf735abdc3489efdc67c74",
+      "committedAt": "2026-10-29T05:42:10Z",
+      "path": "hyw/latest.js",
+      "url": "https://raw.githubusercontent.com/pdone/lx-music-source/000578ddca4a676012cf735abdc3489efdc67c74/hyw/latest.js",
+      "sha256": "0f48bdab4205e4423397f970b926565085a5af4f3b8a8a19f4cdc0e755647cd5",
+      "name": "HYWmusic_公益版",
+      "version": "v1.2.0"
+    },
+    {
+      "repository": "pdone/lx-music-source",
+      "commit": "000578ddca4a676012cf735abdc3489efdc67c74",
+      "committedAt": "2026-10-29T05:42:10Z",
+      "path": "ikun/latest.js",
+      "url": "https://raw.githubusercontent.com/pdone/lx-music-source/000578ddca4a676012cf735abdc3489efdc67c74/ikun/latest.js",
+      "sha256": "8db6c45bc225f1f15fc2e96f7d9ad3bf2e49dd1f2a998cdf23704185ea41fe89",
+      "name": "ikun音源",
+      "version": "v22"
+    },
+    {
+      "repository": "pdone/lx-music-source",
+      "commit": "000578ddca4a676012cf735abdc3489efdc67c74",
+      "committedAt": "2026-10-29T05:42:10Z",
+      "path": "jiexiang/latest.js",
+      "url": "https://raw.githubusercontent.com/pdone/lx-music-source/000578ddca4a676012cf735abdc3489efdc67c74/jiexiang/latest.js",
+      "sha256": "a4f25710ea8c993e20626df2345fb933607eb4b91b794bd323f954e7085b94df",
+      "name": "杰翔聚合音源",
+      "version": "2.3.0"
+    },
+    {
+      "repository": "pdone/lx-music-source",
+      "commit": "000578ddca4a676012cf735abdc3489efdc67c74",
+      "committedAt": "2026-10-29T05:42:10Z",
+      "path": "juhe/latest.js",
+      "url": "https://raw.githubusercontent.com/pdone/lx-music-source/000578ddca4a676012cf735abdc3489efdc67c74/juhe/latest.js",
+      "sha256": "f7a661f01af7ea23035d5fac3b89d7c756372fc8a64bbfd649918f8a101cbf33",
+      "name": "聚合API接口 (CF)",
+      "version": "3"
+    },
+    {
+      "repository": "pdone/lx-music-source",
+      "commit": "000578ddca4a676012cf735abdc3489efdc67c74",
+      "committedAt": "2026-10-29T05:42:10Z",
+      "path": "lx/latest.js",
+      "url": "https://raw.githubusercontent.com/pdone/lx-music-source/000578ddca4a676012cf735abdc3489efdc67c74/lx/latest.js",
+      "sha256": "79a5c4703e060eaff6f8ffaac05d2fadf5e22b7729f6fe151d1cca2fa3935171",
+      "name": "独家音源",
+      "version": "7"
+    },
+    {
+      "repository": "pdone/lx-music-source",
+      "commit": "000578ddca4a676012cf735abdc3489efdc67c74",
+      "committedAt": "2026-10-29T05:42:10Z",
+      "path": "qdy/latest.js",
+      "url": "https://raw.githubusercontent.com/pdone/lx-music-source/000578ddca4a676012cf735abdc3489efdc67c74/qdy/latest.js",
+      "sha256": "213f73232562b528826dd97601e74212b517014e06fd614b28d8d8aa0dda400c",
+      "name": "全豆要[聚合音源]",
+      "version": "9.3 93特供版 DeepSeek优化"
+    },
+    {
+      "repository": "pdone/lx-music-source",
+      "commit": "000578ddca4a676012cf735abdc3489efdc67c74",
+      "committedAt": "2026-10-29T05:42:10Z",
+      "path": "sixyin/latest.js",
+      "url": "https://raw.githubusercontent.com/pdone/lx-music-source/000578ddca4a676012cf735abdc3489efdc67c74/sixyin/latest.js",
+      "sha256": "a407ffe0ab23c29cd32ce249b83e61c8e2b70719895f16034566ad7557282785",
+      "name": "六音音源",
+      "version": "v1.2.1"
+    },
+    {
+      "repository": "pdone/lx-music-source",
+      "commit": "000578ddca4a676012cf735abdc3489efdc67c74",
+      "committedAt": "2026-10-29T05:42:10Z",
+      "path": "xinghai/latest.js",
+      "url": "https://raw.githubusercontent.com/pdone/lx-music-source/000578ddca4a676012cf735abdc3489efdc67c74/xinghai/latest.js",
+      "sha256": "807d6157e4fd7cdd05b8727efd73778b54a3b05a0b5e4c6bb28dedc0668e94e9",
+      "name": "星海音乐源",
+      "version": "v3.2.15"
+    },
+    {
+      "repository": "pdone/lx-music-source",
+      "commit": "000578ddca4a676012cf735abdc3489efdc67c74",
+      "committedAt": "2026-10-29T05:42:10Z",
+      "path": "yuningxi/latest.js",
+      "url": "https://raw.githubusercontent.com/pdone/lx-music-source/000578ddca4a676012cf735abdc3489efdc67c74/yuningxi/latest.js",
+      "sha256": "9ddcc32f55ba1981166f16bf55c03c43165b098932208a5fb4c9c64192650f0c",
+      "name": "lx-玉宁熙-Pro",
+      "version": "v1.2.2"
+    },
+    {
+      "repository": "ShaneLee-9/lx-music-source-merge",
+      "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+      "committedAt": "2026-10-31T08:26:52Z",
+      "path": "checked/HYWmusic_公益版V1.2.0.js",
+      "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/HYWmusic_%E5%85%AC%E7%9B%8A%E7%89%88V1.2.0.js",
+      "sha256": "0f48bdab4205e4423397f970b926565085a5af4f3b8a8a19f4cdc0e755647cd5",
+      "name": "HYWmusic_公益版",
+      "version": "v1.2.0"
+    },
+    {
+      "repository": "ShaneLee-9/lx-music-source-merge",
+      "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+      "committedAt": "2026-10-31T08:26:52Z",
+      "path": "checked/Hei Music v2.2.1-fix.js",
+      "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/Hei%20Music%20v2.2.1-fix.js",
+      "sha256": "78d3cad4f64913358112edd71c4d32842048135b9105c36e76842a126a180ef2",
+      "name": "Hei Music聚合源",
+      "version": "v2.2.1-fix"
+    },
+    {
+      "repository": "ShaneLee-9/lx-music-source-merge",
+      "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+      "committedAt": "2026-10-31T08:26:52Z",
+      "path": "checked/Hei Music 源V1.0.0.js",
+      "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/Hei%20Music%20%E6%BA%90V1.0.0.js",
+      "sha256": "a8d482fd57fde03e73b2ff179e04a2773e79fe59b1cd13b10bacf1992e93ba50",
+      "name": "Hei Music源",
+      "version": "1.0.0"
+    },
+    {
+      "repository": "ShaneLee-9/lx-music-source-merge",
+      "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+      "committedAt": "2026-10-31T08:26:52Z",
+      "path": "checked/HelloWorld音源(中秋快乐).js",
+      "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/HelloWorld%E9%9F%B3%E6%BA%90(%E4%B8%AD%E7%A7%8B%E5%BF%AB%E4%B9%90).js",
+      "sha256": "32ff5f7b44c1d7d038cb548cb6fac0349befb538bdae26fb658684115e823427",
+      "name": "𝖧౿ᥣᥣ𝗈 Ԝ𝗈𝗋ᥣᑯ",
+      "version": "260925"
+    },
+    {
+      "repository": "ShaneLee-9/lx-music-source-merge",
+      "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+      "committedAt": "2026-10-31T08:26:52Z",
+      "path": "checked/fish-music1.9.0.js",
+      "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/fish-music1.9.0.js",
+      "sha256": "a711e152c4f28c32fd46b38839a70f476e0b669905773a90e2ce63246136af47",
+      "name": "fish_music",
+      "version": "1.9.0"
+    },
+    {
+      "repository": "ShaneLee-9/lx-music-source-merge",
+      "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+      "committedAt": "2026-10-31T08:26:52Z",
+      "path": "checked/gdstudio音乐源 v1.0.1（仅支持网易）.js",
+      "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/gdstudio%E9%9F%B3%E4%B9%90%E6%BA%90%20v1.0.1%EF%BC%88%E4%BB%85%E6%94%AF%E6%8C%81%E7%BD%91%E6%98%93%EF%BC%89.js",
+      "sha256": "05631b29ff18a4b8688b4464abf0f38952474cd4d8d6c4149c365b0190c7fd28",
+      "name": "gdstudio音乐源",
+      "version": "1.0.1"
+    },
+    {
+      "repository": "ShaneLee-9/lx-music-source-merge",
+      "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+      "committedAt": "2026-10-31T08:26:52Z",
+      "path": "checked/(推荐)裤佬SVIP音源（酷狗挂了）.js",
+      "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/(%E6%8E%A8%E8%8D%90)%E8%A3%A4%E4%BD%ACSVIP%E9%9F%B3%E6%BA%90%EF%BC%88%E9%85%B7%E7%8B%97%E6%8C%82%E4%BA%86%EF%BC%89.js",
+      "sha256": "7ba2ca2c4b5ec2b0931f1a4f7f542a19e844f40f2765b661d0aee3b38e63ad4a",
+      "name": "👖裤佬SVIP音源",
+      "version": "✈️TG频道https://t.me/stymei"
+    },
+    {
+      "repository": "ShaneLee-9/lx-music-source-merge",
+      "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+      "committedAt": "2026-10-31T08:26:52Z",
+      "path": "checked/lx-玉宁熙1.2.5.js",
+      "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/lx-%E7%8E%89%E5%AE%81%E7%86%991.2.5.js",
+      "sha256": "5dd4752c16c17f7bab45dccf87dcd3f3c2a6e251e62bad68bde9554bfd275f79",
+      "name": "lx-玉宁熙-Pro",
+      "version": "v1.2.5"
+    },
+    {
+      "repository": "ShaneLee-9/lx-music-source-merge",
+      "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+      "committedAt": "2026-10-31T08:26:52Z",
+      "path": "checked/xinghai-music-sourcev2.3.13.js",
+      "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/xinghai-music-sourcev2.3.13.js",
+      "sha256": "669b235196af1f3e1446636ca99e964fe80e94641ee1f67e67d42ae114e64d63",
+      "name": "星海音乐源",
+      "version": "v3.2.13"
+    },
+    {
+      "repository": "ShaneLee-9/lx-music-source-merge",
+      "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+      "committedAt": "2026-10-31T08:26:52Z",
+      "path": "checked/全豆要-聚合音源-V4.1（酷狗挂了）.js",
+      "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/%E5%85%A8%E8%B1%86%E8%A6%81-%E8%81%9A%E5%90%88%E9%9F%B3%E6%BA%90-V4.1%EF%BC%88%E9%85%B7%E7%8B%97%E6%8C%82%E4%BA%86%EF%BC%89.js",
+      "sha256": "e501fa90f8136a714e0b8e7b44a50d9ee344083a9a5164da7f87a07b6f763650",
+      "name": "全豆要[聚合音源]",
+      "version": "v4.1"
+    },
+    {
+      "repository": "ShaneLee-9/lx-music-source-merge",
+      "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+      "committedAt": "2026-10-31T08:26:52Z",
+      "path": "checked/stellarwave-v4.0.0（酷我稍后支持）.js",
+      "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/stellarwave-v4.0.0%EF%BC%88%E9%85%B7%E6%88%91%E7%A8%8D%E5%90%8E%E6%94%AF%E6%8C%81%EF%BC%89.js",
+      "sha256": "c27f8d8ff94b9cdc02721430c46632f51a7c2a15ef0618e8c3bbfc6c08ef0092",
+      "name": "星澜聚合音源 (StellarWave)",
+      "version": "v4.0.0"
+    },
+    {
+      "repository": "ShaneLee-9/lx-music-source-merge",
+      "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+      "committedAt": "2026-10-31T08:26:52Z",
+      "path": "checked/墨澜音乐源v2.3.5.js",
+      "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/%E5%A2%A8%E6%BE%9C%E9%9F%B3%E4%B9%90%E6%BA%90v2.3.5.js",
+      "sha256": "02a218e45786197b37ee4c9dbf409bbac2458c6166f5dfcd4b545db04d5d4a52",
+      "name": "墨澜聚合音源",
+      "version": "2.3.5"
+    },
+    {
+      "repository": "ShaneLee-9/lx-music-source-merge",
+      "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+      "committedAt": "2026-10-31T08:26:52Z",
+      "path": "checked/安妮独家音源 v5.js",
+      "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/%E5%AE%89%E5%A6%AE%E7%8B%AC%E5%AE%B6%E9%9F%B3%E6%BA%90%20v5.js",
+      "sha256": "337376552140487185c66eb3d7ffc2fc162135ed6f5a4fe683ee37f1b1799d2a",
+      "name": "安妮独家音源",
+      "version": "v5"
+    },
+    {
+      "repository": "ShaneLee-9/lx-music-source-merge",
+      "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+      "committedAt": "2026-10-31T08:26:52Z",
+      "path": "checked/回避聚合V0.0.1.js",
+      "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/%E5%9B%9E%E9%81%BF%E8%81%9A%E5%90%88V0.0.1.js",
+      "sha256": "9c35f66bf39c6b66e6dc64d3df27535f329a5e146fe80921406f5db910f63e33",
+      "name": "回避聚合 (HuiBi Aggregate)",
+      "version": "0.0.1"
+    },
+    {
+      "repository": "ShaneLee-9/lx-music-source-merge",
+      "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+      "committedAt": "2026-10-31T08:26:52Z",
+      "path": "checked/幻音音源 v3.js",
+      "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/%E5%B9%BB%E9%9F%B3%E9%9F%B3%E6%BA%90%20v3.js",
+      "sha256": "4a81129240ecae3ebf6b42f28c73e2d37bbcb6fccac9a73a401d90cdd36bee5f",
+      "name": "幻音音源",
+      "version": "v3"
+    },
+    {
+      "repository": "ShaneLee-9/lx-music-source-merge",
+      "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+      "committedAt": "2026-10-31T08:26:52Z",
+      "path": "checked/念心音源 v1.0.2.js",
+      "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/%E5%BF%B5%E5%BF%83%E9%9F%B3%E6%BA%90%20v1.0.2.js",
+      "sha256": "86f6c05f8fef7169fd010a1da362824b5c4b7f5695f89d384fe53564f3fa88d2",
+      "name": "念心音源",
+      "version": "1.0.2"
+    },
+    {
+      "repository": "ShaneLee-9/lx-music-source-merge",
+      "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+      "committedAt": "2026-10-31T08:26:52Z",
+      "path": "checked/屿溪-终章.js",
+      "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/%E5%B1%BF%E6%BA%AA-%E7%BB%88%E7%AB%A0.js",
+      "sha256": "b45e05b8c043f0e715f9856ea400707bdf131b9c05b5014e1de9d0821a9972a7",
+      "name": "屿溪-终章",
+      "version": "0.0.0"
+    },
+    {
+      "repository": "ShaneLee-9/lx-music-source-merge",
+      "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+      "committedAt": "2026-10-31T08:26:52Z",
+      "path": "checked/收集の聚合接口.js",
+      "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/%E6%94%B6%E9%9B%86%E3%81%AE%E8%81%9A%E5%90%88%E6%8E%A5%E5%8F%A3.js",
+      "sha256": "cd4b68b133ef8de80a75ac6f9c5d9c80b383e1fe3c364f4366553d18ca9418a5",
+      "name": "收集の聚合接口(LX版)",
+      "version": "1.0.0-beta"
+    },
+    {
+      "repository": "ShaneLee-9/lx-music-source-merge",
+      "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+      "committedAt": "2026-10-31T08:26:52Z",
+      "path": "checked/新聚合APIV3.js",
+      "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/%E6%96%B0%E8%81%9A%E5%90%88APIV3.js",
+      "sha256": "a6b4d7fdb7896df7b6ab438ea67b21624a2552ea1366ea76ffb4b0021e0c8171",
+      "name": "聚合API接口 (CF)",
+      "version": "3"
+    },
+    {
+      "repository": "ShaneLee-9/lx-music-source-merge",
+      "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+      "committedAt": "2026-10-31T08:26:52Z",
+      "path": "checked/星海音乐源V3.2.15.js",
+      "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/%E6%98%9F%E6%B5%B7%E9%9F%B3%E4%B9%90%E6%BA%90V3.2.15.js",
+      "sha256": "807d6157e4fd7cdd05b8727efd73778b54a3b05a0b5e4c6bb28dedc0668e94e9",
+      "name": "星海音乐源",
+      "version": "v3.2.15"
+    },
+    {
+      "repository": "ShaneLee-9/lx-music-source-merge",
+      "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+      "committedAt": "2026-10-31T08:26:52Z",
+      "path": "checked/溯音音源_v1.js",
+      "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/%E6%BA%AF%E9%9F%B3%E9%9F%B3%E6%BA%90_v1.js",
+      "sha256": "d10c9c28823b5c2ce4e3fef3b25b8ff16d2d165bd0883e2b866900ef7c0dc0ee",
+      "name": "溯音音源",
+      "version": "v1"
+    },
+    {
+      "repository": "ShaneLee-9/lx-music-source-merge",
+      "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+      "committedAt": "2026-10-31T08:26:52Z",
+      "path": "checked/独家音源-v7.js",
+      "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/%E7%8B%AC%E5%AE%B6%E9%9F%B3%E6%BA%90-v7.js",
+      "sha256": "79a5c4703e060eaff6f8ffaac05d2fadf5e22b7729f6fe151d1cca2fa3935171",
+      "name": "独家音源",
+      "version": "7"
+    },
+    {
+      "repository": "ShaneLee-9/lx-music-source-merge",
+      "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+      "committedAt": "2026-10-31T08:26:52Z",
+      "path": "checked/稳定版音源 v1.0.3.js",
+      "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/%E7%A8%B3%E5%AE%9A%E7%89%88%E9%9F%B3%E6%BA%90%20v1.0.3.js",
+      "sha256": "5e5f39c1a51b6c005104f382b22cd0a3e0af2ba30c7003e4fd03bfcf9f6a088a",
+      "name": "稳定版音源 v1.0.3",
+      "version": "1.0.3"
+    },
+    {
+      "repository": "ShaneLee-9/lx-music-source-merge",
+      "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+      "committedAt": "2026-10-31T08:26:52Z",
+      "path": "checked/聚合API接口 (CF) v3.js",
+      "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/%E8%81%9A%E5%90%88API%E6%8E%A5%E5%8F%A3%20(CF)%20v3.js",
+      "sha256": "756f54cd238eb0203af826522b7005d436a3c9b40b544b6e673ff5f05cdb36c7",
+      "name": "聚合API接口 (CF)",
+      "version": "3"
+    },
+    {
+      "repository": "ShaneLee-9/lx-music-source-merge",
+      "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+      "committedAt": "2026-10-31T08:26:52Z",
+      "path": "checked/统一音乐源.js",
+      "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/%E7%BB%9F%E4%B8%80%E9%9F%B3%E4%B9%90%E6%BA%90.js",
+      "sha256": "a18bdd58fd3f5e26d00c8c18d7b0825367f54a1c01bb8f8321ac7f5d374f1a7c",
+      "name": "统一音乐源",
+      "version": "1.0.0"
+    },
+    {
+      "repository": "ShaneLee-9/lx-music-source-merge",
+      "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+      "committedAt": "2026-10-31T08:26:52Z",
+      "path": "checked/裤佬SVIP音源(二改整合版) v3.0.0.js",
+      "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/%E8%A3%A4%E4%BD%ACSVIP%E9%9F%B3%E6%BA%90(%E4%BA%8C%E6%94%B9%E6%95%B4%E5%90%88%E7%89%88)%20v3.0.0.js",
+      "sha256": "58e8cb1403a0eb394d6405dc560c3cd4329fa62aa19c5d753d048a9a6e626d97",
+      "name": "👖裤佬SVIP音源(二改整合版)",
+      "version": "v3.0.0 | 2026-08-19"
+    },
+    {
+      "repository": "ShaneLee-9/lx-music-source-merge",
+      "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+      "committedAt": "2026-10-31T08:26:52Z",
+      "path": "checked/西瓜聚合.js",
+      "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/%E8%A5%BF%E7%93%9C%E8%81%9A%E5%90%88.js",
+      "sha256": "f9a084498536d3467b0ee5647b107f491ce1f60bf362ec34b9e8f625d263e84d",
+      "name": "西瓜聚合源",
+      "version": "v1.40"
+    },
+    {
+      "repository": "ShaneLee-9/lx-music-source-merge",
+      "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+      "committedAt": "2026-10-31T08:26:52Z",
+      "path": "checked/非常刀 v5.js",
+      "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/%E9%9D%9E%E5%B8%B8%E5%88%80%20v5.js",
+      "sha256": "49486cab064e64d5ad63723e670c44ee55eadadcc790ccf493351fbde64284d7",
+      "name": "非常刀",
+      "version": "v5"
+    },
+    {
+      "repository": "luanmuc/lx-music-source",
+      "commit": "9093ff071a8fcc12d94b66330d3a175632cf10fe",
+      "committedAt": "2026-10-31T11:30:31Z",
+      "path": "lx-source.js",
+      "url": "https://raw.githubusercontent.com/luanmuc/lx-music-source/9093ff071a8fcc12d94b66330d3a175632cf10fe/lx-source.js",
+      "sha256": "e6352c42ed3e0162a78f9c8bf945301e0ba73d1255a3b6bf04e9678d1aa8231d",
+      "name": "豆包定制[聚合音源]",
+      "version": "27.3 全面审计修复版（S1缓存返回类型/S4封面字段+UA/S5工程脚本；运行时同 v27.2）"
+    },
+    {
+      "repository": "shiliu6924/lx-music-source",
+      "commit": "2d856c23216885f04c7aee91c9203e959e76c210",
+      "committedAt": "2026-10-27T16:00:00Z",
+      "path": "墨澜2.3.5.js",
+      "url": "https://raw.githubusercontent.com/shiliu6924/lx-music-source/2d856c23216885f04c7aee91c9203e959e76c210/%E5%A2%A8%E6%BE%9C2.3.5.js",
+      "sha256": "02a218e45786197b37ee4c9dbf409bbac2458c6166f5dfcd4b545db04d5d4a52",
+      "name": "墨澜聚合音源",
+      "version": "2.3.5"
+    },
+    {
+      "repository": "shiliu6924/lx-music-source",
+      "commit": "2d856c23216885f04c7aee91c9203e959e76c210",
+      "committedAt": "2026-10-27T16:00:00Z",
+      "path": "HYW1.2.0.js",
+      "url": "https://raw.githubusercontent.com/shiliu6924/lx-music-source/2d856c23216885f04c7aee91c9203e959e76c210/HYW1.2.0.js",
+      "sha256": "9f1cb9791c9abda54b34f5c5b945fa7e0b992702523694f66d6128a655492f86",
+      "name": "HYWmusic_公益版",
+      "version": "v1.2.0"
+    },
+    {
+      "repository": "shiliu6924/lx-music-source",
+      "commit": "2d856c23216885f04c7aee91c9203e959e76c210",
+      "committedAt": "2026-10-27T16:00:00Z",
+      "path": "星海3.2.15.js",
+      "url": "https://raw.githubusercontent.com/shiliu6924/lx-music-source/2d856c23216885f04c7aee91c9203e959e76c210/%E6%98%9F%E6%B5%B73.2.15.js",
+      "sha256": "807d6157e4fd7cdd05b8727efd73778b54a3b05a0b5e4c6bb28dedc0668e94e9",
+      "name": "星海音乐源",
+      "version": "v3.2.15"
+    },
+    {
+      "repository": "shiliu6924/lx-music-source",
+      "commit": "2d856c23216885f04c7aee91c9203e959e76c210",
+      "committedAt": "2026-10-27T16:00:00Z",
+      "path": "星澜4.0.0.js",
+      "url": "https://raw.githubusercontent.com/shiliu6924/lx-music-source/2d856c23216885f04c7aee91c9203e959e76c210/%E6%98%9F%E6%BE%9C4.0.0.js",
+      "sha256": "c27f8d8ff94b9cdc02721430c46632f51a7c2a15ef0618e8c3bbfc6c08ef0092",
+      "name": "星澜聚合音源 (StellarWave)",
+      "version": "v4.0.0"
+    }
+  ],
+  "decisions": [
+    {
+      "id": "lx",
+      "name": "独家音源",
+      "decision": "added",
+      "version": "7",
+      "passed": [
+        "kw",
+        "tx",
+        "kg"
+      ]
+    },
+    {
+      "id": "hei",
+      "name": "Hei Music聚合源",
+      "decision": "added",
+      "version": "v2.2.1-fix",
+      "passed": [
+        "wy",
+        "kw",
+        "tx",
+        "kg",
+        "mg"
+      ]
+    },
+    {
+      "id": "gd-studio",
+      "name": "gdstudio音乐源",
+      "decision": "added",
+      "version": "1.0.1",
+      "passed": [
+        "wy",
+        "kg",
+        "mg"
+      ]
+    },
+    {
+      "id": "yuningxi",
+      "name": "lx-玉宁熙-Pro",
+      "decision": "updated",
+      "version": "v1.2.5",
+      "passed": [
+        "kw"
+      ]
+    },
+    {
+      "id": "stellarwave",
+      "name": "星澜聚合音源 (StellarWave)",
+      "decision": "added",
+      "version": "v4.0.0",
+      "passed": [
+        "tx"
+      ]
+    },
+    {
+      "id": "annie",
+      "name": "安妮独家音源",
+      "decision": "added",
+      "version": "v5",
+      "passed": [
+        "kw"
+      ]
+    },
+    {
+      "id": "huibi",
+      "name": "回避聚合 (HuiBi Aggregate)",
+      "decision": "added",
+      "version": "0.0.1",
+      "passed": [
+        "tx"
+      ]
+    },
+    {
+      "id": "nianxin",
+      "name": "念心音源",
+      "decision": "added",
+      "version": "1.0.2",
+      "passed": [
+        "kw",
+        "tx",
+        "kg"
+      ]
+    },
+    {
+      "id": "kulao",
+      "name": "👖裤佬SVIP音源(二改整合版)",
+      "decision": "added",
+      "version": "v3.0.0 | 2026-08-19",
+      "passed": [
+        "kw",
+        "tx"
+      ]
+    },
+    {
+      "id": "feichangdao",
+      "name": "非常刀",
+      "decision": "added",
+      "version": "v5",
+      "passed": [
+        "kw"
+      ]
+    },
+    {
+      "id": "doubao",
+      "name": "豆包定制[聚合音源]",
+      "decision": "added",
+      "version": "27.3 全面审计修复版（S1缓存返回类型/S4封面字段+UA/S5工程脚本；运行时同 v27.2）",
+      "passed": [
+        "kw"
+      ]
+    }
+  ],
+  "additionalChecks": {
+    "molanBaseline": {
+      "file": "sources/molan/墨澜聚合音源.js",
+      "name": "墨澜聚合音源",
+      "sha256": "328e06c473dfc0ba6de338a7b04f00e3b67a69f59205ca6903d553a80b57c706",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "所有后端均失败（共1个）\nikun网易云: ikun网易云: WyServerError(url为空): {\"data\":[{\"id\":186016,\"url\":null,\"br\":0,\"size\":0,\"md5\":null,\"code\":404,\"expi\":1200,\"type\":null,\"gain\":0.0,\"peak\":null,\"closedGain\":0.0,\"closedPeak\":0.0,\"fee\":0,\"uf\":null,\"payed\":0,\"flag\":"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": false,
+          "contentType": "application/octet-stream"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "tx",
+        "wy",
+        "kw",
+        "kg",
+        "mg"
+      ]
+    }
+  },
+  "notes": [
+    "Molan 2.3.5 passed only kw, while the current 2.3.4 baseline passed kw/kg/mg in the same run; retain current version to avoid regression.",
+    "HYW personal card configuration retained; same-version upstream variants do not replace it.",
+    "Grass retained by prior explicit user confirmation; automated failure is preserved.",
+    "Older Xinghai/QDY and same-version newline-only variants are not duplicated.",
+    "Hei published build disables optional telemetry, public-IP lookup and panel configuration; exact modified bytes retested on all five samples."
+  ]
+}
