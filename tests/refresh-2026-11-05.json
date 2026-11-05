@@ -1,0 +1,239 @@
+{
+  "checkedOn": "2026-11-05",
+  "timezone": "Asia/Shanghai",
+  "scope": "Same-run baseline and candidate comparisons using the five existing 128k audio response samples.",
+  "upstream": [
+    {
+      "repository": "pdone/lx-music-source",
+      "commit": "000578ddca4a676012cf735abdc3489efdc67c74",
+      "decision": "main unchanged; health-status updated separately"
+    },
+    {
+      "repository": "ShaneLee-9/lx-music-source-merge",
+      "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
+      "decision": "unchanged"
+    },
+    {
+      "repository": "shiliu6924/lx-music-source",
+      "commit": "f56313523c61c6d278dde343dab1838e2427c2d6",
+      "decision": "update Xinghai to v3.2.17; Molan and StellarWave already examined by hash",
+      "testedAt": "2026-11-05T13:45:56.245Z",
+      "results": [
+        {
+          "file": "sources/xinghai/星海音乐源.js",
+          "name": "星海音乐源",
+          "sha256": "807d6157e4fd7cdd05b8727efd73778b54a3b05a0b5e4c6bb28dedc0668e94e9",
+          "initialized": true,
+          "attempts": [
+            {
+              "source": "wy",
+              "id": "186016",
+              "quality": "128k",
+              "error": "GD接口失败: GD接口状态200，未返回音频"
+            },
+            {
+              "source": "kw",
+              "id": "228908",
+              "quality": "128k",
+              "resolved": true,
+              "status": 206,
+              "bytes": 8192,
+              "audio": true,
+              "contentType": "audio/mpeg"
+            },
+            {
+              "source": "tx",
+              "id": "97773",
+              "quality": "128k",
+              "error": "后端失败: 后端聚合接口返回403，已屏蔽"
+            },
+            {
+              "source": "kg",
+              "id": "32100650",
+              "quality": "128k",
+              "error": "后端失败: 后端聚合接口返回403，已屏蔽"
+            },
+            {
+              "source": "mg",
+              "id": "3790007",
+              "quality": "128k",
+              "error": "后端失败: 后端聚合接口返回403，已屏蔽"
+            }
+          ],
+          "errors": [],
+          "platforms": [
+            "wy",
+            "tx",
+            "kg",
+            "kw",
+            "mg",
+            "qs"
+          ]
+        },
+        {
+          "file": "upstream:xinghai.js",
+          "name": "星海音乐源",
+          "sha256": "2d995989fd60bd86181900eda2aea60b0374a8b0ce6c2840f68b7469ceed903e",
+          "initialized": true,
+          "attempts": [
+            {
+              "source": "wy",
+              "id": "186016",
+              "quality": "128k",
+              "error": "GD接口失败: GD接口状态200，未返回音频"
+            },
+            {
+              "source": "kw",
+              "id": "228908",
+              "quality": "128k",
+              "resolved": true,
+              "status": 206,
+              "bytes": 8192,
+              "audio": true,
+              "contentType": "audio/mpeg"
+            },
+            {
+              "source": "tx",
+              "id": "97773",
+              "quality": "128k",
+              "error": "后端失败: 触发人机验证"
+            },
+            {
+              "source": "kg",
+              "id": "32100650",
+              "quality": "128k",
+              "error": "后端失败: 酷狗接口已临时关闭"
+            },
+            {
+              "source": "mg",
+              "id": "3790007",
+              "quality": "128k",
+              "resolved": true,
+              "status": 206,
+              "bytes": 8192,
+              "audio": true,
+              "contentType": "audio/mpeg"
+            }
+          ],
+          "errors": [],
+          "platforms": [
+            "wy",
+            "tx",
+            "kg",
+            "kw",
+            "mg",
+            "qs"
+          ]
+        }
+      ]
+    },
+    {
+      "repository": "luanmuc/lx-music-source",
+      "commit": "1e117da0d659d4d4ec2451e2e32eeae6838cd3c1",
+      "decision": "keep current Doubao version; both versions pass only Kuwo in this run",
+      "testedAt": "2026-11-05T13:44:49.385Z",
+      "results": [
+        {
+          "file": "upstream:doubao.js",
+          "name": "豆包定制[聚合音源]",
+          "sha256": "896958109c8f75d9492381c683d6f15b514b4b678db4ac279fee5aca5710395a",
+          "initialized": true,
+          "attempts": [
+            {
+              "source": "wy",
+              "id": "186016",
+              "quality": "128k",
+              "error": "NOT_FOUND: 所有源均失败 [[128k] NOT_FOUND: 溯音163获取失败; NETWORK_ERROR: Transport 47; LINK_EXPIRED: 溯音酷我签名URL已过期(CDN 410)，不可播]"
+            },
+            {
+              "source": "kw",
+              "id": "228908",
+              "quality": "128k",
+              "resolved": true,
+              "status": 206,
+              "bytes": 8192,
+              "audio": true,
+              "contentType": "audio/mpeg"
+            },
+            {
+              "source": "tx",
+              "id": "97773",
+              "quality": "128k",
+              "error": "NOT_FOUND: 所有源均失败 [[128k] 溯音酷我: LINK_EXPIRED: 溯音酷我签名URL已过期(CDN 410)，不可播]"
+            },
+            {
+              "source": "kg",
+              "id": "32100650",
+              "quality": "128k",
+              "error": "NOT_FOUND: 所有源均失败 [[128k] 溯音酷我: LINK_EXPIRED: 溯音酷我签名URL已过期(CDN 410)，不可播]"
+            },
+            {
+              "source": "mg",
+              "id": "3790007",
+              "quality": "128k",
+              "error": "NOT_FOUND: 所有源均失败 [[128k] 溯音酷我: LINK_EXPIRED: 溯音酷我签名URL已过期(CDN 410)，不可播]"
+            }
+          ],
+          "errors": [],
+          "platforms": [
+            "wy",
+            "tx",
+            "kw",
+            "kg",
+            "mg"
+          ]
+        },
+        {
+          "file": "sources/doubao/豆包定制[聚合音源].js",
+          "name": "豆包定制[聚合音源]",
+          "sha256": "e6352c42ed3e0162a78f9c8bf945301e0ba73d1255a3b6bf04e9678d1aa8231d",
+          "initialized": true,
+          "attempts": [
+            {
+              "source": "wy",
+              "id": "186016",
+              "quality": "128k",
+              "error": "NOT_FOUND: 所有源均失败 [[128k] NOT_FOUND: 溯音163获取失败; NETWORK_ERROR: Transport 47; LINK_EXPIRED: 溯音酷我签名URL已过期(CDN 410)，不可播]"
+            },
+            {
+              "source": "kw",
+              "id": "228908",
+              "quality": "128k",
+              "resolved": true,
+              "status": 206,
+              "bytes": 8192,
+              "audio": true,
+              "contentType": "audio/mpeg"
+            },
+            {
+              "source": "tx",
+              "id": "97773",
+              "quality": "128k",
+              "error": "NOT_FOUND: 所有源均失败 [[128k] 溯音酷我: LINK_EXPIRED: 溯音酷我签名URL已过期(CDN 410)，不可播]"
+            },
+            {
+              "source": "kg",
+              "id": "32100650",
+              "quality": "128k",
+              "error": "NOT_FOUND: 所有源均失败 [[128k] 溯音酷我: LINK_EXPIRED: 溯音酷我签名URL已过期(CDN 410)，不可播]"
+            },
+            {
+              "source": "mg",
+              "id": "3790007",
+              "quality": "128k",
+              "error": "NOT_FOUND: 所有源均失败 [[128k] 溯音酷我: LINK_EXPIRED: 溯音酷我签名URL已过期(CDN 410)，不可播]"
+            }
+          ],
+          "errors": [],
+          "platforms": [
+            "wy",
+            "tx",
+            "kw",
+            "kg",
+            "mg"
+          ]
+        }
+      ]
+    }
+  ]
+}

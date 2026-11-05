@@ -502,14 +502,14 @@
     {
       "file": "sources/xinghai/星海音乐源.js",
       "name": "星海音乐源",
-      "sha256": "807d6157e4fd7cdd05b8727efd73778b54a3b05a0b5e4c6bb28dedc0668e94e9",
+      "sha256": "2d995989fd60bd86181900eda2aea60b0374a8b0ce6c2840f68b7469ceed903e",
       "initialized": true,
       "attempts": [
         {
           "source": "wy",
           "id": "186016",
           "quality": "128k",
-          "error": "GD接口失败: GD接口状态400，未返回音频"
+          "error": "GD接口失败: GD接口状态200，未返回音频"
         },
         {
           "source": "kw",
@@ -525,17 +525,13 @@
           "source": "tx",
           "id": "97773",
           "quality": "128k",
-          "error": "后端失败: QQ音乐 触发了人机验证/风控，自动刷新无法解除。请在手机/设备上登录对应账号完成验证，或在官方APP中正常使用几分钟后再试；期间请勿频繁请求以免加重限制。"
+          "error": "后端失败: 触发人机验证"
         },
         {
           "source": "kg",
           "id": "32100650",
           "quality": "128k",
-          "resolved": true,
-          "status": 206,
-          "bytes": 8192,
-          "audio": true,
-          "contentType": "audio/mpeg"
+          "error": "后端失败: 酷狗接口已临时关闭"
         },
         {
           "source": "mg",
@@ -557,7 +553,7 @@
         "mg",
         "qs"
       ],
-      "id": "xinghai"
+      "testedAt": "2026-11-05T13:45:56.245Z"
     },
     {
       "file": "sources/kxh/K×H测试.js",
