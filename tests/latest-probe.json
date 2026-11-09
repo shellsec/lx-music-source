@@ -439,53 +439,54 @@
     {
       "file": "sources/molan/墨澜聚合音源.js",
       "name": "墨澜聚合音源",
-      "sha256": "328e06c473dfc0ba6de338a7b04f00e3b67a69f59205ca6903d553a80b57c706",
+      "sha256": "b6da06bf9a1730c4e579ebc7593949d3abcff4e0c61d4b32bd140adf347286ff",
       "initialized": true,
       "attempts": [
         {
           "source": "wy",
           "id": "186016",
           "quality": "128k",
-          "error": "所有后端均失败（共1个）\nikun网易云: ikun网易云: WyServerError(url为空): {\"data\":[{\"id\":186016,\"url\":null,\"br\":0,\"size\":0,\"md5\":null,\"code\":404,\"expi\":1200,\"type\":null,\"gain\":0.0,\"peak\":null,\"closedGain\":0.0,\"closedPeak\":0.0,\"fee\":0,\"uf\":null,\"payed\":0,\"flag\":"
+          "audio": false,
+          "error": "未获得可识别音频响应"
         },
         {
           "source": "kw",
           "id": "228908",
           "quality": "128k",
+          "audio": true,
           "resolved": true,
           "status": 206,
           "bytes": 8192,
-          "audio": true,
           "contentType": "audio/mpeg"
         },
         {
           "source": "tx",
           "id": "97773",
           "quality": "128k",
+          "audio": true,
           "resolved": true,
           "status": 206,
           "bytes": 8192,
-          "audio": false,
-          "contentType": "application/octet-stream"
+          "contentType": "audio/mpeg"
         },
         {
           "source": "kg",
           "id": "32100650",
           "quality": "128k",
+          "audio": true,
           "resolved": true,
           "status": 206,
           "bytes": 8192,
-          "audio": true,
           "contentType": "audio/mpeg"
         },
         {
           "source": "mg",
           "id": "3790007",
           "quality": "128k",
+          "audio": true,
           "resolved": true,
           "status": 206,
           "bytes": 8192,
-          "audio": true,
           "contentType": "audio/mpeg"
         }
       ],
@@ -495,52 +496,59 @@
         "wy",
         "kw",
         "kg",
-        "mg"
+        "mg",
+        "qs"
       ],
-      "id": "molan"
+      "testedAt": "2026-11-09T02:07:15.043Z"
     },
     {
       "file": "sources/xinghai/星海音乐源.js",
       "name": "星海音乐源",
-      "sha256": "2d995989fd60bd86181900eda2aea60b0374a8b0ce6c2840f68b7469ceed903e",
+      "sha256": "d2f72c5c0dde51fbaa32c9ca5c634a1ae43eafa952abc1e5a83dab4f578487ab",
       "initialized": true,
       "attempts": [
         {
           "source": "wy",
           "id": "186016",
           "quality": "128k",
-          "error": "GD接口失败: GD接口状态200，未返回音频"
+          "audio": false,
+          "error": "未获得可识别音频响应"
         },
         {
           "source": "kw",
           "id": "228908",
           "quality": "128k",
+          "audio": true,
           "resolved": true,
           "status": 206,
           "bytes": 8192,
-          "audio": true,
           "contentType": "audio/mpeg"
         },
         {
           "source": "tx",
           "id": "97773",
           "quality": "128k",
-          "error": "后端失败: 触发人机验证"
+          "audio": false,
+          "error": "后端触发人机验证"
         },
         {
           "source": "kg",
           "id": "32100650",
           "quality": "128k",
-          "error": "后端失败: 酷狗接口已临时关闭"
+          "audio": true,
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "contentType": "audio/mpeg"
         },
         {
           "source": "mg",
           "id": "3790007",
           "quality": "128k",
+          "audio": true,
           "resolved": true,
           "status": 206,
           "bytes": 8192,
-          "audio": true,
           "contentType": "audio/mpeg"
         }
       ],
@@ -553,7 +561,7 @@
         "mg",
         "qs"
       ],
-      "testedAt": "2026-11-05T13:45:56.245Z"
+      "testedAt": "2026-11-09T02:07:15.043Z"
     },
     {
       "file": "sources/kxh/K×H测试.js",
@@ -1061,47 +1069,60 @@
       "testedAt": "2026-10-31T18:22:28.914Z"
     },
     {
+      "file": "sources/stellarwave/星澜聚合音源 (StellarWave).js",
       "name": "星澜聚合音源 (StellarWave)",
-      "sha256": "c27f8d8ff94b9cdc02721430c46632f51a7c2a15ef0618e8c3bbfc6c08ef0092",
+      "sha256": "d186346cec8f813dc447bebcc4d5a29a5ad41f62c90102edb196d67cc870eaf2",
       "initialized": true,
       "attempts": [
         {
           "source": "wy",
           "id": "186016",
           "quality": "128k",
-          "error": "所有后端均失败（共 9 个）\n网易云官方: 无数据\nikun网易云: WyServerError(url为空): {\"data\":[{\"id\":186016,\"url\":null,\"br\":0,\"size\":0,\"md5\":null,\"code\":404,\"expi\":1200,\"type\":null,\"gain\":0.0,\"peak\":null,\"closedGain\":0.0,\"closedPeak\":0.0,\"fee\":0,\"uf\":null,\"payed\":0,\"fl"
+          "audio": true,
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "contentType": "audio/mpeg; charset=UTF-8"
         },
         {
           "source": "kw",
           "id": "228908",
           "quality": "128k",
+          "audio": true,
           "resolved": true,
-          "status": 400,
-          "bytes": 57,
-          "audio": false,
-          "contentType": "application/json"
+          "status": 206,
+          "bytes": 8192,
+          "contentType": "audio/mpeg"
         },
         {
           "source": "tx",
           "id": "97773",
           "quality": "128k",
+          "audio": true,
           "resolved": true,
           "status": 206,
           "bytes": 8192,
-          "audio": true,
           "contentType": "audio/mpeg"
         },
         {
           "source": "kg",
           "id": "32100650",
           "quality": "128k",
-          "error": "所有后端均失败（共 8 个）\n星海主后端: 当前请求量过大，未授权调用暂时受限，请稍后重试。推荐使用星海音乐源：[URL]\n长青海棠: 无数据\n酷狗官方: 无数据\n念心KG: 念心KG: 无数据\nHYWmusic: HYWmusic: 无数据\n星海酷狗: Transport 28\n念心酷狗: 念心 失败\nFFAPI: 返回无效URL"
+          "audio": true,
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "contentType": "audio/mpeg"
         },
         {
           "source": "mg",
           "id": "3790007",
           "quality": "128k",
-          "error": "所有后端均失败（共 6 个）\n星海主后端: 当前请求量过大，未授权调用暂时受限，请稍后重试。推荐使用星海音乐源：[URL]\nMigu直接源: 无数据\nMigu API: 无数据\nHYWmusic: HYWmusic: 无数据\n星海咪咕: Transport 28\nFFAPI: 返回无效URL"
+          "audio": true,
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "contentType": "audio/mpeg"
         }
       ],
       "errors": [],
@@ -1110,18 +1131,10 @@
         "wy",
         "kw",
         "kg",
-        "mg"
+        "mg",
+        "qs"
       ],
-      "upstream": {
-        "repository": "ShaneLee-9/lx-music-source-merge",
-        "commit": "cbc158d7d2973b39b086a8b753eb05ae2efadcb1",
-        "path": "checked/stellarwave-v4.0.0（酷我稍后支持）.js",
-        "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/cbc158d7d2973b39b086a8b753eb05ae2efadcb1/checked/stellarwave-v4.0.0%EF%BC%88%E9%85%B7%E6%88%91%E7%A8%8D%E5%90%8E%E6%94%AF%E6%8C%81%EF%BC%89.js",
-        "version": "v4.0.0"
-      },
-      "decision": "retain-existing-or-skip-older-variant",
-      "file": "sources/stellarwave/星澜聚合音源 (StellarWave).js",
-      "testedAt": "2026-10-31T18:22:28.914Z"
+      "testedAt": "2026-11-09T02:07:15.043Z"
     },
     {
       "name": "安妮独家音源",
@@ -1441,43 +1454,60 @@
       "testedAt": "2026-10-31T18:22:28.914Z"
     },
     {
+      "file": "sources/doubao/豆包定制[聚合音源].js",
       "name": "豆包定制[聚合音源]",
-      "sha256": "e6352c42ed3e0162a78f9c8bf945301e0ba73d1255a3b6bf04e9678d1aa8231d",
+      "sha256": "bd697f1b59351e33e3449714ec1800bc5743f9be45018bb9bc817552b424c3de",
       "initialized": true,
       "attempts": [
         {
           "source": "wy",
           "id": "186016",
           "quality": "128k",
-          "error": "NOT_FOUND: 所有源均失败 [[128k] NOT_FOUND: 溯音163获取失败; NETWORK_ERROR: Transport 47; LINK_EXPIRED: 溯音酷我签名URL已过期(CDN 410)，不可播]"
+          "audio": true,
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "contentType": "audio/mpeg"
         },
         {
           "source": "kw",
           "id": "228908",
           "quality": "128k",
+          "audio": true,
           "resolved": true,
           "status": 206,
           "bytes": 8192,
-          "audio": true,
           "contentType": "audio/mpeg"
         },
         {
           "source": "tx",
           "id": "97773",
           "quality": "128k",
-          "error": "NOT_FOUND: 所有源均失败 [[128k] 溯音酷我: LINK_EXPIRED: 溯音酷我签名URL已过期(CDN 410)，不可播]"
+          "audio": true,
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "contentType": "audio/mpeg"
         },
         {
           "source": "kg",
           "id": "32100650",
           "quality": "128k",
-          "error": "NOT_FOUND: 所有源均失败 [[128k] 溯音酷我: LINK_EXPIRED: 溯音酷我签名URL已过期(CDN 410)，不可播]"
+          "audio": true,
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "contentType": "audio/mpeg"
         },
         {
           "source": "mg",
           "id": "3790007",
           "quality": "128k",
-          "error": "NOT_FOUND: 所有源均失败 [[128k] 溯音酷我: LINK_EXPIRED: 溯音酷我签名URL已过期(CDN 410)，不可播]"
+          "audio": true,
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "contentType": "audio/mpeg"
         }
       ],
       "errors": [],
@@ -1488,16 +1518,7 @@
         "kg",
         "mg"
       ],
-      "upstream": {
-        "repository": "luanmuc/lx-music-source",
-        "commit": "9093ff071a8fcc12d94b66330d3a175632cf10fe",
-        "path": "lx-source.js",
-        "url": "https://raw.githubusercontent.com/luanmuc/lx-music-source/9093ff071a8fcc12d94b66330d3a175632cf10fe/lx-source.js",
-        "version": "27.3 全面审计修复版（S1缓存返回类型/S4封面字段+UA/S5工程脚本；运行时同 v27.2）"
-      },
-      "decision": "retain-existing-or-skip-older-variant",
-      "file": "sources/doubao/豆包定制[聚合音源].js",
-      "testedAt": "2026-10-31T18:22:28.914Z"
+      "testedAt": "2026-11-09T02:07:15.043Z"
     }
   ]
 }

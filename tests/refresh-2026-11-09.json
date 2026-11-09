@@ -1,0 +1,137 @@
+{
+  "checkedOn": "2026-11-09",
+  "timezone": "Asia/Shanghai",
+  "testedAt": "2026-11-09T02:07:15.043Z",
+  "scope": "同轮 LX 模拟环境五平台 128k 音频响应抽测。使用现有探针逻辑，HTTP 响应头改用内存读取以适配只读环境。仅验证音频响应，不证明整首或音频来源与平台一致。",
+  "upstreams": [
+    [
+      "pdone/lx-music-source",
+      "ed8328dbd1a77aee3ee0116d835eb9d907eeaad2"
+    ],
+    [
+      "luanmuc/lx-music-source",
+      "1803be31433a7b63c1b96f0372c679936e11983a"
+    ],
+    [
+      "shiliu6924/lx-music-source",
+      "fc63ddb1fde3f74cdc4e7be24a129c875319d1ce"
+    ],
+    [
+      "ShaneLee-9/lx-music-source-merge",
+      "脚本树未变更"
+    ]
+  ],
+  "updates": [
+    {
+      "id": "xinghai",
+      "repository": "pdone/lx-music-source",
+      "commit": "ed8328dbd1a77aee3ee0116d835eb9d907eeaad2",
+      "path": "xinghai/latest.js",
+      "url": "https://raw.githubusercontent.com/pdone/lx-music-source/ed8328dbd1a77aee3ee0116d835eb9d907eeaad2/xinghai/latest.js",
+      "version": "v3.2.18",
+      "sha256": "d2f72c5c0dde51fbaa32c9ca5c634a1ae43eafa952abc1e5a83dab4f578487ab",
+      "previousSha256": "2d995989fd60bd86181900eda2aea60b0374a8b0ce6c2840f68b7469ceed903e",
+      "previousPassed": [
+        "kw",
+        "kg",
+        "mg"
+      ],
+      "passed": [
+        "kw",
+        "kg",
+        "mg"
+      ],
+      "decision": "更新：上游新版本修复，样本未见回归"
+    },
+    {
+      "id": "stellarwave",
+      "repository": "pdone/lx-music-source",
+      "commit": "ed8328dbd1a77aee3ee0116d835eb9d907eeaad2",
+      "path": "xinglan/latest.js",
+      "url": "https://raw.githubusercontent.com/pdone/lx-music-source/ed8328dbd1a77aee3ee0116d835eb9d907eeaad2/xinglan/latest.js",
+      "version": "v4.0.2",
+      "sha256": "d186346cec8f813dc447bebcc4d5a29a5ad41f62c90102edb196d67cc870eaf2",
+      "previousSha256": "c27f8d8ff94b9cdc02721430c46632f51a7c2a15ef0618e8c3bbfc6c08ef0092",
+      "previousPassed": [
+        "tx",
+        "kg",
+        "mg"
+      ],
+      "passed": [
+        "kw",
+        "wy",
+        "tx",
+        "kg",
+        "mg"
+      ],
+      "decision": "更新：同轮样本通过范围扩大"
+    },
+    {
+      "id": "molan",
+      "repository": "shiliu6924/lx-music-source",
+      "commit": "fc63ddb1fde3f74cdc4e7be24a129c875319d1ce",
+      "path": "墨澜2.3.6.js",
+      "url": "https://raw.githubusercontent.com/shiliu6924/lx-music-source/fc63ddb1fde3f74cdc4e7be24a129c875319d1ce/%E5%A2%A8%E6%BE%9C2.3.6.js",
+      "version": "2.3.6",
+      "sha256": "b6da06bf9a1730c4e579ebc7593949d3abcff4e0c61d4b32bd140adf347286ff",
+      "previousSha256": "328e06c473dfc0ba6de338a7b04f00e3b67a69f59205ca6903d553a80b57c706",
+      "previousPassed": [
+        "kw",
+        "kg",
+        "mg"
+      ],
+      "passed": [
+        "kw",
+        "tx",
+        "kg",
+        "mg"
+      ],
+      "decision": "更新：同轮样本通过范围扩大"
+    },
+    {
+      "id": "doubao",
+      "repository": "luanmuc/lx-music-source",
+      "commit": "1803be31433a7b63c1b96f0372c679936e11983a",
+      "path": "lx-source.js",
+      "url": "https://raw.githubusercontent.com/luanmuc/lx-music-source/1803be31433a7b63c1b96f0372c679936e11983a/lx-source.js",
+      "version": "8.10.12",
+      "sha256": "bd697f1b59351e33e3449714ec1800bc5743f9be45018bb9bc817552b424c3de",
+      "previousSha256": "e6352c42ed3e0162a78f9c8bf945301e0ba73d1255a3b6bf04e9678d1aa8231d",
+      "previousPassed": [
+        "kw"
+      ],
+      "passed": [
+        "kw",
+        "wy",
+        "tx",
+        "kg",
+        "mg"
+      ],
+      "decision": "更新：同轮样本通过范围扩大"
+    }
+  ],
+  "excluded": [
+    {
+      "id": "qingliang",
+      "version": "2.1.0",
+      "passed": [],
+      "reason": "声明的四个平台样本均未通过"
+    },
+    {
+      "id": "suyin",
+      "reason": "SHA-256 与历史候选一致，跳过重复检测"
+    }
+  ],
+  "discovery": [
+    {
+      "repository": "jfeng018/mygo-music-lx-source",
+      "commit": "862d45822735b04da1316b248e5562bb739d31c1",
+      "reason": "入口未声明 @name 或 @version，未纳入同轮替换"
+    },
+    {
+      "repository": "xiaoxiansheng-123/lx-music-source",
+      "commit": "841753477682ce5cccd734edba9086c24d9535d2",
+      "reason": "已检查文件哈希和头部；发现旧版、已知副本及缺少明确升级关系的变体，未替换现有脚本"
+    }
+  ]
+}
