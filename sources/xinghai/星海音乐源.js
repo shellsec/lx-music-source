@@ -1,13 +1,12 @@
 /*!
  * @name         星海音乐源
- * @description  GDAPI | 聚合 | ChKSz API | 全平台支持 24bit FLAC，网易、酷狗、QQ 最高支持母带｜建议与反馈：https://yy.zddyr.top/survey.php?k=192ee708d4721bc9077f8f1738296c1b
- * @version      v3.2.18
+ * @description  GDAPI | 聚合 | ChKSz API | 全平台支持 24bit FLAC，网易、酷狗、QQ 最高支持母带｜建议与反馈：https://yy1.zddyr.top/survey.php?k=192ee708d4721bc9077f8f1738296c1b
+ * @version      v3.2.19
  * @author       万去了了 / 科学大魔王
  * @homepage     https://zddyr.top/
  * @see          http://gc.kxwa.top/
- * @lastUpdate   2026-11-08
- * @update       优化酷我：修复部分歌曲取链接失败
- * @update       使用体验反馈：https://yy.zddyr.top/survey.php?k=192ee708d4721bc9077f8f1738296c1b
+ * @lastUpdate   2026-11-12
+ * @update       更换域名修复部分地区 DNS 解析错误问题
  * @license      仅供学习交流，请支持正版
  */
 
@@ -35,7 +34,8 @@ const LICENSE_CONFIG = {
 
 const URL_CONFIG = {
     domains: {
-        primary: 'yy.zddyr.top',
+        primary: 'yy1.zddyr.top',   // 主 API（新域名，避开部分地区 DNS 拦截）
+        backup:  'yy.zddyr.top',    // 备用 API（原域名，主域名不可用时自动回退）
         gdStudio: 'music-api.gdstudio.xyz',
         chkszNew: 'api.chksz.com'
     },
@@ -66,7 +66,22 @@ const buildUrl = (domainKey, pathKey, extraQuery = '') => {
     return url;
 };
 
-const SCRIPT_VERSION = 'v3.2.18';
+// 主域名在部分地区会被 DNS 污染/拦截：网络失败或 5xx 时自动切到备用域名重试一次。
+// 只作用于主 API 域名的请求，第三方接口（GD / ChkSz）不受影响。
+const PRIMARY_HOST = URL_CONFIG.domains.primary;
+const BACKUP_HOST = URL_CONFIG.domains.backup;
+const requestWithFallback = (url, options, callback) => {
+    const backupUrl = url.includes(PRIMARY_HOST) ? url.replace(PRIMARY_HOST, BACKUP_HOST) : null;
+    if (!backupUrl || backupUrl === url) return request(url, options, callback);
+    request(url, options, (err, resp) => {
+        const failed = !!err || !resp ||
+            (typeof resp.statusCode === 'number' && resp.statusCode >= 500);
+        if (!failed) return callback(err, resp);
+        request(backupUrl, options, callback);
+    });
+};
+
+const SCRIPT_VERSION = 'v3.2.19';
 const SCRIPT_NAME = 'XingHaiMusicSource';
 const SOURCE_MAP = { tx: 'qq', mg: 'migu', kw: 'kw', kg: 'kg', qs: 'qs' };
 const PLATFORM_NAMES = { wy: '网易云音乐', tx: 'QQ音乐', kw: '酷我音乐', kg: '酷狗音乐', mg: '咪咕音乐', qs: '汽水音乐' };
@@ -194,7 +209,7 @@ function fetchServerToken() {
     if (!deviceId) deviceId = generateDeviceId();
     const url = `${buildUrl('primary', 'backend')}token.php?device_id=${encodeURIComponent(deviceId)}`;
     return new Promise((resolve) => {
-        request(url, {
+        requestWithFallback(url, {
             method: 'GET',
             timeout: 6000,
             headers: { 'User-Agent': 'lx-music', 'X-Client': clientHeader || 'LX-Music-Mobile' }
@@ -243,7 +258,7 @@ const httpFetch = async (url, options = {}, retried = false) => {
     if (code) headers['X-License'] = code;
     if (!headers['User-Agent']) headers['User-Agent'] = 'lx-music';
     const out = await new Promise((resolve, reject) => {
-        request(url, { ...options, headers }, (err, resp) => {
+        requestWithFallback(url, { ...options, headers }, (err, resp) => {
             if (err) return reject(err);
             resolve({ body: safeParseBody(resp.body), statusCode: resp.statusCode, headers: resp.headers || {} });
         });

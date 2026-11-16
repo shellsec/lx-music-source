@@ -504,51 +504,49 @@
     {
       "file": "sources/xinghai/星海音乐源.js",
       "name": "星海音乐源",
-      "sha256": "d2f72c5c0dde51fbaa32c9ca5c634a1ae43eafa952abc1e5a83dab4f578487ab",
+      "sha256": "1f1aa4759c63496b4580a4e0d7de5a1ad70bd9c41154110f4fa05c363dc2fd15",
       "initialized": true,
       "attempts": [
         {
           "source": "wy",
           "id": "186016",
           "quality": "128k",
-          "audio": false,
-          "error": "未获得可识别音频响应"
+          "error": "GD接口失败: GD接口状态200，未返回音频"
         },
         {
           "source": "kw",
           "id": "228908",
           "quality": "128k",
-          "audio": true,
           "resolved": true,
           "status": 206,
           "bytes": 8192,
+          "audio": true,
           "contentType": "audio/mpeg"
         },
         {
           "source": "tx",
           "id": "97773",
           "quality": "128k",
-          "audio": false,
-          "error": "后端触发人机验证"
+          "error": "后端失败: 触发人机验证"
         },
         {
           "source": "kg",
           "id": "32100650",
           "quality": "128k",
-          "audio": true,
           "resolved": true,
           "status": 206,
           "bytes": 8192,
+          "audio": true,
           "contentType": "audio/mpeg"
         },
         {
           "source": "mg",
           "id": "3790007",
           "quality": "128k",
-          "audio": true,
           "resolved": true,
           "status": 206,
           "bytes": 8192,
+          "audio": true,
           "contentType": "audio/mpeg"
         }
       ],
@@ -561,7 +559,7 @@
         "mg",
         "qs"
       ],
-      "testedAt": "2026-11-09T02:07:15.043Z"
+      "testedAt": "2026-11-16T02:02:11.583Z"
     },
     {
       "file": "sources/kxh/K×H测试.js",

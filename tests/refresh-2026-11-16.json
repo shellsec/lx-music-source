@@ -1,0 +1,430 @@
+{
+  "checkedOn": "2026-11-16",
+  "timezone": "Asia/Shanghai",
+  "testedAt": "2026-11-16T02:02:11.583Z",
+  "scope": "Same-run 128k audio response samples, not full-track playback.",
+  "upstream": [
+    {
+      "id": "doubao",
+      "repo": "luanmuc/lx-music-source",
+      "commit": "c32642ddc70211d0cacd25196b8294b22f6a9749",
+      "path": "lx-source.js",
+      "sha256": "a2b5c2f3cd037c360af39f00535debff0be5c43fbb56848a2822aa779b3b275a",
+      "version": "8.16.0",
+      "name": "豆包定制[聚合音源]"
+    },
+    {
+      "id": "molan",
+      "repo": "shiliu6924/lx-music-source",
+      "commit": "cdc1b5361d142325b8165b244540f2d8aff32d11",
+      "path": "墨澜2.3.8.js",
+      "sha256": "a5cec42157c4f6bb86c51ec56c905f5c86bac8ac492c1a9e944a1c9725c279cc",
+      "version": "2.3.8",
+      "name": "墨澜聚合音源"
+    },
+    {
+      "id": "xinghai",
+      "repo": "shiliu6924/lx-music-source",
+      "commit": "cdc1b5361d142325b8165b244540f2d8aff32d11",
+      "path": "星海3.2.19.js",
+      "sha256": "1f1aa4759c63496b4580a4e0d7de5a1ad70bd9c41154110f4fa05c363dc2fd15",
+      "version": "v3.2.19",
+      "name": "星海音乐源"
+    },
+    {
+      "id": "stellarwave",
+      "repo": "shiliu6924/lx-music-source",
+      "commit": "cdc1b5361d142325b8165b244540f2d8aff32d11",
+      "path": "星澜4.0.1.js",
+      "sha256": "d44e20b6687e7bcdc9c2f0c1ef9bd9d34f1f73b2fb97a891a26b4e8b174ce369",
+      "version": "v4.0.1",
+      "name": "星澜聚合音源 (StellarWave)"
+    }
+  ],
+  "results": [
+    {
+      "file": "upstream:doubao.js",
+      "name": "豆包定制[聚合音源]",
+      "sha256": "a2b5c2f3cd037c360af39f00535debff0be5c43fbb56848a2822aa779b3b275a",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/x-flac"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/x-flac"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/x-flac"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/x-flac"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "wy",
+        "tx",
+        "kw",
+        "kg",
+        "mg"
+      ]
+    },
+    {
+      "file": "upstream:molan.js",
+      "name": "墨澜聚合音源",
+      "sha256": "a5cec42157c4f6bb86c51ec56c905f5c86bac8ac492c1a9e944a1c9725c279cc",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "所有后端均失败（共1个）\nikun网易云: ikun网易云: WyServerError(url为空): {\"data\":[{\"id\":186016,\"url\":null,\"br\":0,\"size\":0,\"md5\":null,\"code\":404,\"expi\":1200,\"type\":null,\"gain\":0.0,\"peak\":null,\"closedGain\":0.0,\"closedPeak\":0.0,\"fee\":0,\"uf\":null,\"payed\":0,\"flag\":"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "tx",
+        "wy",
+        "kw",
+        "kg",
+        "mg",
+        "qs",
+        "sd",
+        "joox"
+      ]
+    },
+    {
+      "file": "upstream:xinghai.js",
+      "name": "星海音乐源",
+      "sha256": "1f1aa4759c63496b4580a4e0d7de5a1ad70bd9c41154110f4fa05c363dc2fd15",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "GD接口失败: GD接口状态200，未返回音频"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "error": "后端失败: 触发人机验证"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "wy",
+        "tx",
+        "kg",
+        "kw",
+        "mg",
+        "qs"
+      ]
+    },
+    {
+      "file": "sources/xinghai/星海音乐源.js",
+      "name": "星海音乐源",
+      "sha256": "d2f72c5c0dde51fbaa32c9ca5c634a1ae43eafa952abc1e5a83dab4f578487ab",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "GD接口失败: GD接口状态200，未返回音频"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "error": "后端失败: 触发人机验证"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "wy",
+        "tx",
+        "kg",
+        "kw",
+        "mg",
+        "qs"
+      ]
+    },
+    {
+      "file": "sources/molan/墨澜聚合音源.js",
+      "name": "墨澜聚合音源",
+      "sha256": "b6da06bf9a1730c4e579ebc7593949d3abcff4e0c61d4b32bd140adf347286ff",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "所有后端均失败（共1个）\nikun网易云: ikun网易云: WyServerError(url为空): {\"data\":[{\"id\":186016,\"url\":null,\"br\":0,\"size\":0,\"md5\":null,\"code\":404,\"expi\":1200,\"type\":null,\"gain\":0.0,\"peak\":null,\"closedGain\":0.0,\"closedPeak\":0.0,\"fee\":0,\"uf\":null,\"payed\":0,\"flag\":"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "tx",
+        "wy",
+        "kw",
+        "kg",
+        "mg",
+        "qs"
+      ]
+    },
+    {
+      "file": "sources/doubao/豆包定制[聚合音源].js",
+      "name": "豆包定制[聚合音源]",
+      "sha256": "bd697f1b59351e33e3449714ec1800bc5743f9be45018bb9bc817552b424c3de",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/x-flac"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/x-flac"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/x-flac"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/x-flac"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "wy",
+        "tx",
+        "kw",
+        "kg",
+        "mg"
+      ]
+    }
+  ],
+  "decision": {
+    "xinghai": "Update to v3.2.19 for upstream DNS fallback fix; same three passing platforms and user configuration unchanged.",
+    "doubao": "Keep 8.10.12; both versions pass five platforms.",
+    "molan": "Keep 2.3.6; both versions pass four platforms.",
+    "stellarwave": "Skip older v4.0.1."
+  }
+}
