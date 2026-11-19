@@ -6,12 +6,10 @@
 
 音源清单：[sources.json](sources.json)
 
-| 访问方式 | 清单地址 |
-|---|---|
-| 加速链接 | [通过 gh-proxy.com 加载](https://gh-proxy.com/raw.githubusercontent.com/shellsec/lx-music-source/master/sources.json) |
-| GitHub 直连 | [通过 raw.githubusercontent.com 加载](https://raw.githubusercontent.com/shellsec/lx-music-source/master/sources.json) |
-
-[生成订阅二维码](https://quickchart.io/qr?text=https%3A%2F%2Fgh-proxy.com%2Fraw.githubusercontent.com%2Fshellsec%2Flx-music-source%2Fmaster%2Fsources.json&size=320&margin=4)（跳转 QuickChart，内容为上述加速订阅地址）。
+| 访问方式 | 清单地址 | 二维码 |
+|---|---|---|
+| 加速链接 | [通过 gh-proxy.com 加载](https://gh-proxy.com/raw.githubusercontent.com/shellsec/lx-music-source/master/sources.json) | [生成订阅二维码](https://quickchart.io/qr?text=https%3A%2F%2Fgh-proxy.com%2Fraw.githubusercontent.com%2Fshellsec%2Flx-music-source%2Fmaster%2Fsources.json&size=320&margin=4) |
+| GitHub 直连 | [通过 raw.githubusercontent.com 加载](https://raw.githubusercontent.com/shellsec/lx-music-source/master/sources.json) | [生成订阅二维码](https://quickchart.io/qr?text=https%3A%2F%2Fraw.githubusercontent.com%2Fshellsec%2Flx-music-source%2Fmaster%2Fsources.json&size=320&margin=4) |
 
 清单内各音源的 `url` 已使用加速链接。加速服务暂时不可用时，可从对应地址中移除 `https://gh-proxy.com/` 前缀，尝试 GitHub 直连。
 
