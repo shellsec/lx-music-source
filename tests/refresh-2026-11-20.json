@@ -1,0 +1,547 @@
+{
+  "checkedOn": "2026-11-20",
+  "timezone": "Asia/Shanghai",
+  "testedAt": "2026-11-20T03:53:25.446Z",
+  "scope": "Same-run five-platform 128k audio-response smoke tests using tests/music-samples.json. Not full-track or all-quality verification. No passing sample is treated as proof of platform provenance.",
+  "upstreamChecks": [
+    {
+      "repo": "pdone/lx-music-source",
+      "commit": "ed8328dbd1a77aee3ee0116d835eb9d907eeaad2",
+      "decision": "main script tree unchanged; pushed_at includes other branch activity"
+    },
+    {
+      "repo": "ShaneLee-9/lx-music-source-merge",
+      "commit": "e5146bc8e9df93b0fc4d1701c512781e4f80ea33"
+    },
+    {
+      "repo": "luanmuc/lx-music-source",
+      "commit": "816699d4b87515f6cbb2a216b970063f6711595b"
+    },
+    {
+      "repo": "shiliu6924/lx-music-source",
+      "commit": "cbd2d626124f193584a099478a982652b28507ad"
+    },
+    {
+      "repo": "Miao-moe/Stellarwave-Music-Source",
+      "commit": "d26c27e0188f62d2d8e3cf29de8576e1bfab6405",
+      "decision": "Original author bytes match collected new Stellarwave candidate"
+    }
+  ],
+  "inventory": [
+    {
+      "id": "xinghai",
+      "repo": "shiliu6924/lx-music-source",
+      "commit": "cbd2d626124f193584a099478a982652b28507ad",
+      "path": "星海3.2.20.js",
+      "url": "https://raw.githubusercontent.com/shiliu6924/lx-music-source/cbd2d626124f193584a099478a982652b28507ad/%E6%98%9F%E6%B5%B73.2.20.js",
+      "sha256": "b21de3a45a2b41ecfba8640bb3018effb0ad054e6bd1da71473e5a46f603a94d",
+      "name": "星海音乐源",
+      "version": "v3.2.20",
+      "alreadyTested": false
+    },
+    {
+      "id": "doubao",
+      "repo": "luanmuc/lx-music-source",
+      "commit": "816699d4b87515f6cbb2a216b970063f6711595b",
+      "path": "lx-source.js",
+      "url": "https://raw.githubusercontent.com/luanmuc/lx-music-source/816699d4b87515f6cbb2a216b970063f6711595b/lx-source.js",
+      "sha256": "b81443617054c9ca5669bf4163a5679cb0354bfa3a03c6c033f431a068e80e15",
+      "name": "豆包定制[聚合音源]",
+      "version": "9.1.3",
+      "alreadyTested": false
+    },
+    {
+      "id": "stellar-v14",
+      "repo": "ShaneLee-9/lx-music-source-merge",
+      "commit": "e5146bc8e9df93b0fc4d1701c512781e4f80ea33",
+      "path": "checked/stellarwave-v0.0.14.js",
+      "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/e5146bc8e9df93b0fc4d1701c512781e4f80ea33/checked/stellarwave-v0.0.14.js",
+      "sha256": "c9d1c79235414f3f484d5b62a448ed8eb40f5e82c1721a7f98279436ea49d85c",
+      "name": "新星澜音乐源",
+      "version": "0.0.14",
+      "alreadyTested": false,
+      "primarySource": {
+        "repo": "Miao-moe/Stellarwave-Music-Source",
+        "commit": "d26c27e0188f62d2d8e3cf29de8576e1bfab6405",
+        "path": "stellarwave-v0.0.14.js",
+        "url": "https://raw.githubusercontent.com/Miao-moe/Stellarwave-Music-Source/d26c27e0188f62d2d8e3cf29de8576e1bfab6405/stellarwave-v0.0.14.js",
+        "sha256": "c9d1c79235414f3f484d5b62a448ed8eb40f5e82c1721a7f98279436ea49d85c"
+      }
+    },
+    {
+      "id": "stellar-v402",
+      "repo": "ShaneLee-9/lx-music-source-merge",
+      "commit": "e5146bc8e9df93b0fc4d1701c512781e4f80ea33",
+      "path": "checked/stellarwave-v4.0.2.js",
+      "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/e5146bc8e9df93b0fc4d1701c512781e4f80ea33/checked/stellarwave-v4.0.2.js",
+      "sha256": "d186346cec8f813dc447bebcc4d5a29a5ad41f62c90102edb196d67cc870eaf2",
+      "name": "星澜聚合音源 (StellarWave)",
+      "version": "v4.0.2",
+      "alreadyTested": true
+    },
+    {
+      "id": "molan",
+      "repo": "ShaneLee-9/lx-music-source-merge",
+      "commit": "e5146bc8e9df93b0fc4d1701c512781e4f80ea33",
+      "path": "checked/墨澜音乐源v2.3.6.js",
+      "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/e5146bc8e9df93b0fc4d1701c512781e4f80ea33/checked/%E5%A2%A8%E6%BE%9C%E9%9F%B3%E4%B9%90%E6%BA%90v2.3.6.js",
+      "sha256": "b6da06bf9a1730c4e579ebc7593949d3abcff4e0c61d4b32bd140adf347286ff",
+      "name": "墨澜聚合音源",
+      "version": "2.3.6",
+      "alreadyTested": true
+    },
+    {
+      "id": "xinghai-v18",
+      "repo": "ShaneLee-9/lx-music-source-merge",
+      "commit": "e5146bc8e9df93b0fc4d1701c512781e4f80ea33",
+      "path": "checked/星海音乐源 v2.3.18.js",
+      "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/e5146bc8e9df93b0fc4d1701c512781e4f80ea33/checked/%E6%98%9F%E6%B5%B7%E9%9F%B3%E4%B9%90%E6%BA%90%20v2.3.18.js",
+      "sha256": "e5008e5f601fd388e7269eec86491f87055a2785b516dba3825c9ff6264f37c7",
+      "name": "星海音乐源",
+      "version": "v3.2.18",
+      "alreadyTested": false
+    },
+    {
+      "id": "qingliang",
+      "repo": "ShaneLee-9/lx-music-source-merge",
+      "commit": "e5146bc8e9df93b0fc4d1701c512781e4f80ea33",
+      "path": "checked/轻量音源_多源并行（酷我哇网易云无损+其他mp3）.js",
+      "url": "https://raw.githubusercontent.com/ShaneLee-9/lx-music-source-merge/e5146bc8e9df93b0fc4d1701c512781e4f80ea33/checked/%E8%BD%BB%E9%87%8F%E9%9F%B3%E6%BA%90_%E5%A4%9A%E6%BA%90%E5%B9%B6%E8%A1%8C%EF%BC%88%E9%85%B7%E6%88%91%E5%93%87%E7%BD%91%E6%98%93%E4%BA%91%E6%97%A0%E6%8D%9F%2B%E5%85%B6%E4%BB%96mp3%EF%BC%89.js",
+      "sha256": "f5d589c4ebe583800b25fe12e35dfd4f807f1758bfbea83054df4b9a4f95aa29",
+      "name": "轻量音源（四平台多源并行）",
+      "version": "2.1.0",
+      "alreadyTested": false
+    }
+  ],
+  "changes": [
+    {
+      "id": "xinghai",
+      "file": "sources/xinghai/星海音乐源.js",
+      "version": "v3.2.20",
+      "decision": "updated",
+      "passed": [
+        "kw",
+        "kg",
+        "mg"
+      ],
+      "baselinePassed": [
+        "kw",
+        "kg",
+        "mg"
+      ],
+      "sha256": "b21de3a45a2b41ecfba8640bb3018effb0ad054e6bd1da71473e5a46f603a94d"
+    },
+    {
+      "id": "doubao",
+      "file": "sources/doubao/豆包定制[聚合音源].js",
+      "version": "9.1.3",
+      "decision": "updated",
+      "passed": [
+        "wy",
+        "kw",
+        "tx",
+        "kg",
+        "mg"
+      ],
+      "baselinePassed": [
+        "wy",
+        "kw",
+        "tx",
+        "kg",
+        "mg"
+      ],
+      "sha256": "b81443617054c9ca5669bf4163a5679cb0354bfa3a03c6c033f431a068e80e15"
+    },
+    {
+      "id": "stellarwave-new",
+      "file": "sources/stellarwave-new/新星澜音乐源.js",
+      "version": "0.0.14",
+      "decision": "added-as-independent-source",
+      "passed": [
+        "kw",
+        "kg"
+      ],
+      "sha256": "c9d1c79235414f3f484d5b62a448ed8eb40f5e82c1721a7f98279436ea49d85c"
+    }
+  ],
+  "results": [
+    {
+      "file": "upstream:doubao.js",
+      "name": "豆包定制[聚合音源]",
+      "sha256": "b81443617054c9ca5669bf4163a5679cb0354bfa3a03c6c033f431a068e80e15",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/x-flac"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/x-flac"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/x-flac"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/x-flac"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "wy",
+        "tx",
+        "kw",
+        "kg",
+        "mg"
+      ]
+    },
+    {
+      "file": "upstream:xinghai.js",
+      "name": "星海音乐源",
+      "sha256": "b21de3a45a2b41ecfba8640bb3018effb0ad054e6bd1da71473e5a46f603a94d",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "GD接口失败: GD接口状态200，未返回音频"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "error": "后端失败: 该音源仅支持当前已授权的客户端访问，请使用星海 App 或网页端"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "wy",
+        "tx",
+        "kg",
+        "kw",
+        "mg",
+        "qs"
+      ]
+    },
+    {
+      "file": "sources/xinghai/星海音乐源.js",
+      "name": "星海音乐源",
+      "sha256": "1f1aa4759c63496b4580a4e0d7de5a1ad70bd9c41154110f4fa05c363dc2fd15",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "GD接口失败: GD接口状态200，未返回音频"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "error": "后端失败: 该音源仅支持当前已授权的客户端访问，请使用星海 App 或网页端"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "wy",
+        "tx",
+        "kg",
+        "kw",
+        "mg",
+        "qs"
+      ]
+    },
+    {
+      "file": "sources/doubao/豆包定制[聚合音源].js",
+      "name": "豆包定制[聚合音源]",
+      "sha256": "bd697f1b59351e33e3449714ec1800bc5743f9be45018bb9bc817552b424c3de",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/x-flac"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/x-flac"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/x-flac"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/x-flac"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "wy",
+        "tx",
+        "kw",
+        "kg",
+        "mg"
+      ]
+    },
+    {
+      "file": "sources/stellarwave/星澜聚合音源 (StellarWave).js",
+      "name": "星澜聚合音源 (StellarWave)",
+      "sha256": "d186346cec8f813dc447bebcc4d5a29a5ad41f62c90102edb196d67cc870eaf2",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg; charset=UTF-8"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "tx",
+        "wy",
+        "kw",
+        "kg",
+        "mg",
+        "qs"
+      ]
+    },
+    {
+      "file": "upstream:stellar-v14.js",
+      "name": "新星澜音乐源",
+      "sha256": "c9d1c79235414f3f484d5b62a448ed8eb40f5e82c1721a7f98279436ea49d85c",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "Resolve timeout"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "error": "所有后端均失败，已尝试音质：128k, 320k, flac, flac24bit\n128k 梯队1: QQ官方vkey: 无数据; vkeys: 系统运行错误！\n128k HelloWorld: Transport 35\n128k HYWmusic: HYWmusic: 卡密不存在\n128k 念心TX: 念心TX: 无数据\n128k ygking: Transport 6\n128k FishAPI旧版: FishAPI旧版: 无数据\n128k 星海TX: 星海后端: 该音源"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "error": "Resolve timeout"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "tx",
+        "wy",
+        "kw",
+        "kg",
+        "mg"
+      ]
+    }
+  ],
+  "notes": [
+    "New Stellarwave 0.0.14 is added under stellarwave-new, not used to replace existing Stellarwave 4.0.2 which passes five samples.",
+    "New Stellarwave passes kw/kg. wy/mg hit the probe resolve deadline, and tx fails; these results do not prove permanent client-side failure.",
+    "Older Xinghai 3.2.18, previously checked Stellarwave 4.0.2 and MoLan 2.3.6 are not merged again.",
+    "Lightweight 2.1.0 has unchanged bytes from the Nov 9 candidate; it was not retested or added.",
+    "QQ access restrictions reported by Xinghai are preserved; no authorization bypass was attempted."
+  ]
+}

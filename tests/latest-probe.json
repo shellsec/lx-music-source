@@ -504,7 +504,7 @@
     {
       "file": "sources/xinghai/星海音乐源.js",
       "name": "星海音乐源",
-      "sha256": "1f1aa4759c63496b4580a4e0d7de5a1ad70bd9c41154110f4fa05c363dc2fd15",
+      "sha256": "b21de3a45a2b41ecfba8640bb3018effb0ad054e6bd1da71473e5a46f603a94d",
       "initialized": true,
       "attempts": [
         {
@@ -527,7 +527,7 @@
           "source": "tx",
           "id": "97773",
           "quality": "128k",
-          "error": "后端失败: 触发人机验证"
+          "error": "后端失败: 该音源仅支持当前已授权的客户端访问，请使用星海 App 或网页端"
         },
         {
           "source": "kg",
@@ -559,7 +559,7 @@
         "mg",
         "qs"
       ],
-      "testedAt": "2026-11-16T02:02:11.583Z"
+      "testedAt": "2026-11-20T03:53:25.446Z"
     },
     {
       "file": "sources/kxh/K×H测试.js",
@@ -1454,58 +1454,58 @@
     {
       "file": "sources/doubao/豆包定制[聚合音源].js",
       "name": "豆包定制[聚合音源]",
-      "sha256": "bd697f1b59351e33e3449714ec1800bc5743f9be45018bb9bc817552b424c3de",
+      "sha256": "b81443617054c9ca5669bf4163a5679cb0354bfa3a03c6c033f431a068e80e15",
       "initialized": true,
       "attempts": [
         {
           "source": "wy",
           "id": "186016",
           "quality": "128k",
-          "audio": true,
           "resolved": true,
           "status": 206,
           "bytes": 8192,
-          "contentType": "audio/mpeg"
+          "audio": true,
+          "contentType": "audio/x-flac"
         },
         {
           "source": "kw",
           "id": "228908",
           "quality": "128k",
-          "audio": true,
           "resolved": true,
           "status": 206,
           "bytes": 8192,
+          "audio": true,
           "contentType": "audio/mpeg"
         },
         {
           "source": "tx",
           "id": "97773",
           "quality": "128k",
-          "audio": true,
           "resolved": true,
           "status": 206,
           "bytes": 8192,
-          "contentType": "audio/mpeg"
+          "audio": true,
+          "contentType": "audio/x-flac"
         },
         {
           "source": "kg",
           "id": "32100650",
           "quality": "128k",
-          "audio": true,
           "resolved": true,
           "status": 206,
           "bytes": 8192,
-          "contentType": "audio/mpeg"
+          "audio": true,
+          "contentType": "audio/x-flac"
         },
         {
           "source": "mg",
           "id": "3790007",
           "quality": "128k",
-          "audio": true,
           "resolved": true,
           "status": 206,
           "bytes": 8192,
-          "contentType": "audio/mpeg"
+          "audio": true,
+          "contentType": "audio/x-flac"
         }
       ],
       "errors": [],
@@ -1516,7 +1516,62 @@
         "kg",
         "mg"
       ],
-      "testedAt": "2026-11-09T02:07:15.043Z"
+      "testedAt": "2026-11-20T03:53:25.446Z"
+    },
+    {
+      "file": "sources/stellarwave-new/新星澜音乐源.js",
+      "name": "新星澜音乐源",
+      "sha256": "c9d1c79235414f3f484d5b62a448ed8eb40f5e82c1721a7f98279436ea49d85c",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "Resolve timeout"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "error": "所有后端均失败，已尝试音质：128k, 320k, flac, flac24bit\n128k 梯队1: QQ官方vkey: 无数据; vkeys: 系统运行错误！\n128k HelloWorld: Transport 35\n128k HYWmusic: HYWmusic: 卡密不存在\n128k 念心TX: 念心TX: 无数据\n128k ygking: Transport 6\n128k FishAPI旧版: FishAPI旧版: 无数据\n128k 星海TX: 星海后端: 该音源"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "error": "Resolve timeout"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "tx",
+        "wy",
+        "kw",
+        "kg",
+        "mg"
+      ],
+      "testedAt": "2026-11-20T03:53:25.446Z"
     }
   ]
 }

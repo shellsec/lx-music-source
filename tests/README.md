@@ -37,7 +37,7 @@ node tools/probe-sources.cjs --output tests/latest-probe.json
 
 ## 记录文件
 
-最新批次为 [2026-11-01 仓库扫描与合并报告](refresh-2026-11-01.md)，原始记录见 [refresh-2026-11-01.json](refresh-2026-11-01.json)。历史批次结果不会因后续接口恢复而改写；`latest-probe.json` 是按文件保留的最近成功快照，新合并条目的检测时间另存于条目 `testedAt`。
+最新批次为 [2026-11-20 巡检报告](refresh-2026-11-20.md)，完整证据见 [JSON](refresh-2026-11-20.json)。历史记录不改写；`latest-probe.json` 按脚本保留成功抽测快照，新条目的检测时间见 `testedAt`。
 
 | 文件 | 内容 |
 |---|---|

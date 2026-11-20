@@ -17,7 +17,7 @@
 
 ## 音源列表
 
-当前收录 24 个音源，可复制下表的 JS 加速链接到 LX Music 中导入：
+当前收录 25 个音源，可复制下表的 JS 加速链接到 LX Music 中导入：
 
 | 音源 | JS 加速地址 | JS 直连地址 | 二维码 |
 |---|---|---|---|
@@ -45,6 +45,7 @@
 | 👖裤佬SVIP音源(二改整合版) | [加速下载](https://gh-proxy.com/raw.githubusercontent.com/shellsec/lx-music-source/master/sources/kulao/%F0%9F%91%96%E8%A3%A4%E4%BD%ACSVIP%E9%9F%B3%E6%BA%90(%E4%BA%8C%E6%94%B9%E6%95%B4%E5%90%88%E7%89%88).js) | [GitHub 直连](https://raw.githubusercontent.com/shellsec/lx-music-source/master/sources/kulao/%F0%9F%91%96%E8%A3%A4%E4%BD%ACSVIP%E9%9F%B3%E6%BA%90(%E4%BA%8C%E6%94%B9%E6%95%B4%E5%90%88%E7%89%88).js) | [生成二维码](https://quickchart.io/qr?text=https%3A%2F%2Fgh-proxy.com%2Fraw.githubusercontent.com%2Fshellsec%2Flx-music-source%2Fmaster%2Fsources%2Fkulao%2F%25F0%259F%2591%2596%25E8%25A3%25A4%25E4%25BD%25ACSVIP%25E9%259F%25B3%25E6%25BA%2590(%25E4%25BA%258C%25E6%2594%25B9%25E6%2595%25B4%25E5%2590%2588%25E7%2589%2588).js&size=320&margin=4) |
 | 非常刀 | [加速下载](https://gh-proxy.com/raw.githubusercontent.com/shellsec/lx-music-source/master/sources/feichangdao/%E9%9D%9E%E5%B8%B8%E5%88%80.js) | [GitHub 直连](https://raw.githubusercontent.com/shellsec/lx-music-source/master/sources/feichangdao/%E9%9D%9E%E5%B8%B8%E5%88%80.js) | [生成二维码](https://quickchart.io/qr?text=https%3A%2F%2Fgh-proxy.com%2Fraw.githubusercontent.com%2Fshellsec%2Flx-music-source%2Fmaster%2Fsources%2Ffeichangdao%2F%25E9%259D%259E%25E5%25B8%25B8%25E5%2588%2580.js&size=320&margin=4) |
 | 豆包定制[聚合音源] | [加速下载](https://gh-proxy.com/raw.githubusercontent.com/shellsec/lx-music-source/master/sources/doubao/%E8%B1%86%E5%8C%85%E5%AE%9A%E5%88%B6%5B%E8%81%9A%E5%90%88%E9%9F%B3%E6%BA%90%5D.js) | [GitHub 直连](https://raw.githubusercontent.com/shellsec/lx-music-source/master/sources/doubao/%E8%B1%86%E5%8C%85%E5%AE%9A%E5%88%B6%5B%E8%81%9A%E5%90%88%E9%9F%B3%E6%BA%90%5D.js) | [生成二维码](https://quickchart.io/qr?text=https%3A%2F%2Fgh-proxy.com%2Fraw.githubusercontent.com%2Fshellsec%2Flx-music-source%2Fmaster%2Fsources%2Fdoubao%2F%25E8%25B1%2586%25E5%258C%2585%25E5%25AE%259A%25E5%2588%25B6%255B%25E8%2581%259A%25E5%2590%2588%25E9%259F%25B3%25E6%25BA%2590%255D.js&size=320&margin=4) |
+| 新星澜音乐源 | [加速下载](https://gh-proxy.com/raw.githubusercontent.com/shellsec/lx-music-source/master/sources/stellarwave-new/%E6%96%B0%E6%98%9F%E6%BE%9C%E9%9F%B3%E4%B9%90%E6%BA%90.js) | [GitHub 直连](https://raw.githubusercontent.com/shellsec/lx-music-source/master/sources/stellarwave-new/%E6%96%B0%E6%98%9F%E6%BE%9C%E9%9F%B3%E4%B9%90%E6%BA%90.js) | [生成二维码](https://quickchart.io/qr?text=https%3A%2F%2Fgh-proxy.com%2Fraw.githubusercontent.com%2Fshellsec%2Flx-music-source%2Fmaster%2Fsources%2Fstellarwave-new%2F%25E6%2596%25B0%25E6%2598%259F%25E6%25BE%259C%25E9%259F%25B3%25E4%25B9%2590%25E6%25BA%2590.js&size=320&margin=4) |
 
 各音源支持的平台和音质以脚本声明为准，地址以 [sources.json](sources.json) 为准。
 
