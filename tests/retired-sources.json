@@ -1,0 +1,14 @@
+{
+  "retirements": [
+    {
+      "id": "changqing",
+      "name": "长青SVIP音源(二改修复版)",
+      "removedOn": "2026-11-21",
+      "reason": "All advertised platforms explicitly report that this version has stopped service. Removed from subscription and README at user request.",
+      "sha256": "48d5fed8b46344e9298d55427382ce573485a264a2ae287ed829e2f2548223e8",
+      "evidence": "full-check-2026-11-21.json",
+      "previousFile": "sources/changqing/长青SVIP音源(二改修复版).js",
+      "previousCommit": "2388ef6c97a958abe7cb3417e5691d4e3322af3f"
+    }
+  ]
+}
