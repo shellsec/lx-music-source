@@ -1,0 +1,561 @@
+{
+  "checkedOn": "2026-11-21",
+  "timezone": "Asia/Shanghai",
+  "scope": "All 25 collected sources, advertised platforms only, one 128k sample per platform; partial HTTP audio-header check, not full-track playback.",
+  "upstreamChecks": [
+    {
+      "repo": "pdone/lx-music-source",
+      "commit": "ed8328dbd1a77aee3ee0116d835eb9d907eeaad2",
+      "files": [
+        {
+          "path": "changqing/1.3.0.js",
+          "sha": "559123ad822201b2e7c21fc3176a1176785280c2"
+        },
+        {
+          "path": "changqing/latest.js",
+          "sha": "559123ad822201b2e7c21fc3176a1176785280c2"
+        },
+        {
+          "path": "feichangdao/5.js",
+          "sha": "c1724ef140e03bdca336bb92c397c4d0a5a26199"
+        },
+        {
+          "path": "feichangdao/latest.js",
+          "sha": "c1724ef140e03bdca336bb92c397c4d0a5a26199"
+        },
+        {
+          "path": "fish/1.9.0.js",
+          "sha": "1a0bfa2edb6ec5fcee1677e86830cdc53f0c472e"
+        },
+        {
+          "path": "fish/latest.js",
+          "sha": "1a0bfa2edb6ec5fcee1677e86830cdc53f0c472e"
+        },
+        {
+          "path": "flower/1.js",
+          "sha": "4be6e47f3e1365d9b817129f6ae1355ea7676721"
+        },
+        {
+          "path": "flower/latest.js",
+          "sha": "4be6e47f3e1365d9b817129f6ae1355ea7676721"
+        },
+        {
+          "path": "grass/1.js",
+          "sha": "97b765159eaacd082daaff65136950a3d5b5de21"
+        },
+        {
+          "path": "grass/latest.js",
+          "sha": "97b765159eaacd082daaff65136950a3d5b5de21"
+        },
+        {
+          "path": "helloworld/260925.js",
+          "sha": "9072550b4b65d8a5135201a86c404e7873719202"
+        },
+        {
+          "path": "helloworld/latest.js",
+          "sha": "9072550b4b65d8a5135201a86c404e7873719202"
+        },
+        {
+          "path": "huanyin/3.js",
+          "sha": "e4970d8cdb6445cf307308e37b42a06d8373e332"
+        },
+        {
+          "path": "huanyin/latest.js",
+          "sha": "e4970d8cdb6445cf307308e37b42a06d8373e332"
+        },
+        {
+          "path": "huibq/1.2.0.js",
+          "sha": "f2028068db448a9e0b738106112eb300bcefbcc2"
+        },
+        {
+          "path": "huibq/latest.js",
+          "sha": "f2028068db448a9e0b738106112eb300bcefbcc2"
+        },
+        {
+          "path": "hyw/1.2.0.js",
+          "sha": "023e0bcf40edebb33613d557c399abe5430eb1bc"
+        },
+        {
+          "path": "hyw/latest.js",
+          "sha": "023e0bcf40edebb33613d557c399abe5430eb1bc"
+        },
+        {
+          "path": "ikun/22.js",
+          "sha": "acaf03a60ff8b9e3bca20e4afdf4d7c36bcfd38a"
+        },
+        {
+          "path": "ikun/6.js",
+          "sha": "deb64a2ace2acecf2a38a3452be33cf27b8c2216"
+        },
+        {
+          "path": "ikun/latest.js",
+          "sha": "acaf03a60ff8b9e3bca20e4afdf4d7c36bcfd38a"
+        },
+        {
+          "path": "jiexiang/2.3.0.js",
+          "sha": "389b95d0359ccd1f1c3edace490ccb32fa9f4f20"
+        },
+        {
+          "path": "jiexiang/latest.js",
+          "sha": "389b95d0359ccd1f1c3edace490ccb32fa9f4f20"
+        },
+        {
+          "path": "juhe/3.js",
+          "sha": "da25829e493dd37554aecc9e59b2272eb75874b8"
+        },
+        {
+          "path": "juhe/latest.js",
+          "sha": "da25829e493dd37554aecc9e59b2272eb75874b8"
+        },
+        {
+          "path": "lx/2.js",
+          "sha": "0f1c74e74893a60acbc7b08879ac056bd8e8ff31"
+        },
+        {
+          "path": "lx/3.js",
+          "sha": "af9df7061c7f77d88a7a5123219efd95caa22e59"
+        },
+        {
+          "path": "lx/4.js",
+          "sha": "88f9b8d3696a436bdd48fda533a21a2429bcb999"
+        },
+        {
+          "path": "lx/5.js",
+          "sha": "f66741cba986b2631bb230a3ad91de915565fa39"
+        },
+        {
+          "path": "lx/6.js",
+          "sha": "c4d24ffae99ae1aa7d71456ea04bf50f1cb6053b"
+        },
+        {
+          "path": "lx/7.js",
+          "sha": "ce12f2160fc479998aec09d3e890efa1c2e9db08"
+        },
+        {
+          "path": "lx/latest.js",
+          "sha": "ce12f2160fc479998aec09d3e890efa1c2e9db08"
+        },
+        {
+          "path": "qdy/9.3.js",
+          "sha": "d861aa245dfe83a64ec55f3a51351f844335de4e"
+        },
+        {
+          "path": "qdy/latest.js",
+          "sha": "d861aa245dfe83a64ec55f3a51351f844335de4e"
+        },
+        {
+          "path": "qingliang/2.1.0.js",
+          "sha": "137716abd28c6ec3449ee661e686816f30545370"
+        },
+        {
+          "path": "qingliang/latest.js",
+          "sha": "137716abd28c6ec3449ee661e686816f30545370"
+        },
+        {
+          "path": "sixyin/1.2.0.js",
+          "sha": "5145f96058c5445cdc4d8d9451b57bbebf33b72e"
+        },
+        {
+          "path": "sixyin/1.2.1.js",
+          "sha": "aa1345bdc9863e397012ff6ff70e406aff617eb3"
+        },
+        {
+          "path": "sixyin/latest.js",
+          "sha": "aa1345bdc9863e397012ff6ff70e406aff617eb3"
+        },
+        {
+          "path": "suyin/1.js",
+          "sha": "e6b7f1f46c7e9934743b9286eb979405f123ec67"
+        },
+        {
+          "path": "suyin/latest.js",
+          "sha": "e6b7f1f46c7e9934743b9286eb979405f123ec67"
+        },
+        {
+          "path": "xinghai/2.3.15.js",
+          "sha": "25db1d81b31570e545a7e84af6a1726973ee0fb1"
+        },
+        {
+          "path": "xinghai/3.2.17.js",
+          "sha": "d981c7745059f0cb30097a25432afb1800ec820a"
+        },
+        {
+          "path": "xinghai/3.2.18.js",
+          "sha": "3eb0ce8c233ba5e1b2f0f1b4d70856e6accb3be5"
+        },
+        {
+          "path": "xinghai/latest.js",
+          "sha": "3eb0ce8c233ba5e1b2f0f1b4d70856e6accb3be5"
+        },
+        {
+          "path": "xinglan/4.0.2.js",
+          "sha": "f12581f4d2b05b6585480fd3436595836f91040a"
+        },
+        {
+          "path": "xinglan/latest.js",
+          "sha": "f12581f4d2b05b6585480fd3436595836f91040a"
+        },
+        {
+          "path": "yuningxi/1.2.2.js",
+          "sha": "48466d237804a8ed453abe01001080786f44b7cd"
+        },
+        {
+          "path": "yuningxi/1.2.5.js",
+          "sha": "9533139cd3a2f80b3a6d997982b8b69ad3572613"
+        },
+        {
+          "path": "yuningxi/latest.js",
+          "sha": "9533139cd3a2f80b3a6d997982b8b69ad3572613"
+        }
+      ]
+    },
+    {
+      "repo": "ShaneLee-9/lx-music-source-merge",
+      "commit": "e5146bc8e9df93b0fc4d1701c512781e4f80ea33",
+      "files": [
+        {
+          "path": "checked/(推荐)裤佬SVIP音源（酷狗挂了）.js",
+          "sha": "9a4cab8acd63be9fb2968e3a0c60ac49932e3ff9"
+        },
+        {
+          "path": "checked/HYWmusic_公益版V1.2.0.js",
+          "sha": "023e0bcf40edebb33613d557c399abe5430eb1bc"
+        },
+        {
+          "path": "checked/Hei Music v2.2.1-fix.js",
+          "sha": "02acc1ada3967d7087a6f46e7bd065a1a5bdacd5"
+        },
+        {
+          "path": "checked/Hei Music 源V1.0.0.js",
+          "sha": "7e5fb4cd979530489e29f4ec8ed9a54f0bd91f76"
+        },
+        {
+          "path": "checked/HelloWorld音源(中秋快乐).js",
+          "sha": "44e6e81ff8e698639e714caf05a55d5cbb19f81c"
+        },
+        {
+          "path": "checked/fish-music1.9.0.js",
+          "sha": "1a0bfa2edb6ec5fcee1677e86830cdc53f0c472e"
+        },
+        {
+          "path": "checked/gdstudio音乐源 v1.0.1（仅支持网易）.js",
+          "sha": "0a643a7e4b7d2fb431cc151ef2918add9852da5a"
+        },
+        {
+          "path": "checked/lx-玉宁熙1.2.5.js",
+          "sha": "9533139cd3a2f80b3a6d997982b8b69ad3572613"
+        },
+        {
+          "path": "checked/stellarwave-v0.0.14.js",
+          "sha": "3056c3301c7e09ea7746fc368a638cae82ab82ed"
+        },
+        {
+          "path": "checked/stellarwave-v4.0.2.js",
+          "sha": "f12581f4d2b05b6585480fd3436595836f91040a"
+        },
+        {
+          "path": "checked/xinghai-music-sourcev2.3.13.js",
+          "sha": "99f211945a151aa0f42f8eba4ed2a72a40e3bfdd"
+        },
+        {
+          "path": "checked/全豆要-聚合音源-V4.1（酷狗挂了）.js",
+          "sha": "a5ff68b06f63cba4488c0cb57abc70c9a41d6c21"
+        },
+        {
+          "path": "checked/回避聚合V0.0.1.js",
+          "sha": "9dcdeb411447e6bc183373c51a7e6393168e0619"
+        },
+        {
+          "path": "checked/墨澜音乐源v2.3.6.js",
+          "sha": "549c5fa44afc7105b22aff859cd8771c87ae1a2f"
+        },
+        {
+          "path": "checked/安妮独家音源 v5.js",
+          "sha": "7c386935635c842f5d0eb325cb878805d57bae60"
+        },
+        {
+          "path": "checked/屿溪-终章.js",
+          "sha": "0eb495487696b012375465c115da78d709d90bb3"
+        },
+        {
+          "path": "checked/幻音音源 v3.js",
+          "sha": "e4970d8cdb6445cf307308e37b42a06d8373e332"
+        },
+        {
+          "path": "checked/念心音源 v1.0.2.js",
+          "sha": "b98810e26208057ce8438cfcce0f9448cc9d065a"
+        },
+        {
+          "path": "checked/收集の聚合接口.js",
+          "sha": "74acc9483ef97a31c3b5c0e411924433523a0ca3"
+        },
+        {
+          "path": "checked/新聚合APIV3.js",
+          "sha": "b619a8a61932da02cf9ef91e60076f5995afc3bc"
+        },
+        {
+          "path": "checked/星海音乐源 v2.3.18.js",
+          "sha": "24e4ffe396edc16b39b4e1924431e51d2795085d"
+        },
+        {
+          "path": "checked/溯音音源_v1.js",
+          "sha": "e6b7f1f46c7e9934743b9286eb979405f123ec67"
+        },
+        {
+          "path": "checked/独家音源-v7.js",
+          "sha": "ce12f2160fc479998aec09d3e890efa1c2e9db08"
+        },
+        {
+          "path": "checked/稳定版音源 v1.0.3.js",
+          "sha": "59dd5ef66fc12a456a2095b4c8835efc8f6771ea"
+        },
+        {
+          "path": "checked/统一音乐源.js",
+          "sha": "df44509ec316e58560fa25c72e0c08b4e6955f05"
+        },
+        {
+          "path": "checked/聚合API接口 (CF) v3.js",
+          "sha": "5fde219067a191da8162bfc152adec3f9701e57a"
+        },
+        {
+          "path": "checked/裤佬SVIP音源(二改整合版) v3.0.0.js",
+          "sha": "244fd8ba658510fc6b69cfa4cc8bab707fdf9464"
+        },
+        {
+          "path": "checked/西瓜聚合.js",
+          "sha": "8a95969244296ecbc4fbc6ab7a140735b405d815"
+        },
+        {
+          "path": "checked/轻量音源_多源并行（酷我哇网易云无损+其他mp3）.js",
+          "sha": "137716abd28c6ec3449ee661e686816f30545370"
+        },
+        {
+          "path": "checked/非常刀 v5.js",
+          "sha": "c1724ef140e03bdca336bb92c397c4d0a5a26199"
+        },
+        {
+          "path": "checked/音乐下载器_v6.js",
+          "sha": "1a2380e233907874f295bd3768468079c2776cdc"
+        }
+      ]
+    },
+    {
+      "repo": "luanmuc/lx-music-source",
+      "commit": "f3ccb269672d6f306c5e5915e39bb7742329daed",
+      "files": [
+        {
+          "path": "lx-source.js",
+          "sha": "2c06be599c21dea867ccd496c3d148550ab72240"
+        }
+      ]
+    },
+    {
+      "repo": "shiliu6924/lx-music-source",
+      "commit": "cbd2d626124f193584a099478a982652b28507ad",
+      "files": [
+        {
+          "path": "墨澜2.3.8.js",
+          "sha": "a754532f8f2fe6a9bd74b21453845475fc445872"
+        },
+        {
+          "path": "星海3.2.20.js",
+          "sha": "661e26fd3088b9e1eaf503e75a2875087be92832"
+        },
+        {
+          "path": "星澜4.0.1.js",
+          "sha": "d903009378ef35a21c5e58dd754488ffab892dbf"
+        }
+      ]
+    },
+    {
+      "repo": "Miao-moe/Stellarwave-Music-Source",
+      "commit": "cf9294766d18c074dd7481ebcdffc8ba601b1cec",
+      "files": [
+        {
+          "path": "coconut-lichun.js",
+          "sha": "b0c1772d6c4f321a01aa20bbeff9931193495852"
+        }
+      ]
+    }
+  ],
+  "inventory": [
+    {
+      "repo": "luanmuc/lx-music-source",
+      "commit": "f3ccb269672d6f306c5e5915e39bb7742329daed",
+      "path": "lx-source.js",
+      "file": ".tmp-all-20261121/doubao.js",
+      "url": "https://raw.githubusercontent.com/luanmuc/lx-music-source/f3ccb269672d6f306c5e5915e39bb7742329daed/lx-source.js",
+      "sha256": "9681214e4fbd442ebc52669e6468c5af6a197d08e3f5e3197caf34ec81dd515e",
+      "name": "豆包定制[聚合音源]",
+      "version": "9.1.6",
+      "previouslyRecorded": false
+    },
+    {
+      "repo": "Miao-moe/Stellarwave-Music-Source",
+      "commit": "cf9294766d18c074dd7481ebcdffc8ba601b1cec",
+      "path": "coconut-lichun.js",
+      "file": ".tmp-all-20261121/coconut.js",
+      "url": "https://raw.githubusercontent.com/Miao-moe/Stellarwave-Music-Source/cf9294766d18c074dd7481ebcdffc8ba601b1cec/coconut-lichun.js",
+      "sha256": "b4df36ffcaa4efeed8263ccbb3785aecaea4b111879af9c1a1b3bc6b9f863a50",
+      "name": "椰子音源",
+      "version": "春·雨水",
+      "previouslyRecorded": false
+    }
+  ],
+  "candidateResults": [
+    {
+      "file": ".tmp-all-20261121\\doubao.js",
+      "name": "豆包定制[聚合音源]",
+      "sha256": "9681214e4fbd442ebc52669e6468c5af6a197d08e3f5e3197caf34ec81dd515e",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/x-flac"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/x-flac"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/x-flac"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/x-flac"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "wy",
+        "tx",
+        "kw",
+        "kg",
+        "mg"
+      ]
+    },
+    {
+      "file": ".tmp-all-20261121\\coconut.js",
+      "name": "椰子音源",
+      "sha256": "b4df36ffcaa4efeed8263ccbb3785aecaea4b111879af9c1a1b3bc6b9f863a50",
+      "initialized": true,
+      "attempts": [
+        {
+          "source": "wy",
+          "id": "186016",
+          "quality": "128k",
+          "error": "所有后端均失败（耗时 6156ms，已尝试音质：128k）\n128k 网易云官方: 网易云官方: 无数据\n128k gdstudio网易: gdstudio: 无数据\n128k ikun网易云: ikun网易云: WyServerError(url为空): {\"data\":[{\"id\":186016,\"url\":null,\"br\":0,\"size\":0,\"md5\":null,\"code\":404,\"expi\":1200,\"type\":null,\"gain\":0.0,\"peak"
+        },
+        {
+          "source": "kw",
+          "id": "228908",
+          "quality": "128k",
+          "resolved": true,
+          "status": 206,
+          "bytes": 8192,
+          "audio": true,
+          "contentType": "audio/mpeg"
+        },
+        {
+          "source": "tx",
+          "id": "97773",
+          "quality": "128k",
+          "error": "所有后端均失败（耗时 623ms，已尝试音质：128k）\n128k QQ官方vkey: QQ官方vkey: 无数据\n128k vkeys: vkeys: 仅试听片段（RS）\n128k HYWmusic: 未配置 @hyw_key（HYW 卡密），已跳过"
+        },
+        {
+          "source": "kg",
+          "id": "32100650",
+          "quality": "128k",
+          "error": "所有后端均失败（耗时 509ms，已尝试音质：128k）\n128k 酷狗v5签名: 酷狗v5: 需要会员/付费（无登录态仅试听）\n128k 酷狗官方: 酷狗官方: 无数据\n128k HYWmusic: 未配置 @hyw_key（HYW 卡密），已跳过"
+        },
+        {
+          "source": "mg",
+          "id": "3790007",
+          "quality": "128k",
+          "error": "时间预算用尽，部分后端未及尝试（耗时 11584ms，已尝试音质：128k）\n128k 咪咕官方v2.2: 咪咕官方v2.2: 内部错误\n128k Migu直接源: Migu直接源: 无数据\n128k Migu API: Migu API: 内部错误\n128k 自建咪咕H5v2.4: Transport 28"
+        }
+      ],
+      "errors": [],
+      "platforms": [
+        "wy",
+        "kw",
+        "tx",
+        "kg",
+        "mg"
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "id": "doubao",
+      "from": "9.1.3",
+      "to": "9.1.6",
+      "action": "updated",
+      "platforms": [
+        "wy",
+        "kw",
+        "tx",
+        "kg",
+        "mg"
+      ]
+    },
+    {
+      "id": "stellarwave-new",
+      "candidate": "椰子音源 春·雨水",
+      "action": "kept-current",
+      "reason": "Same-run current passes kw/tx/kg; successor only kw. Do not replace with regression or add renamed fork as redundant entry."
+    },
+    {
+      "id": "changqing",
+      "action": "retained-with-failure-record",
+      "reason": "All advertised platforms report version service discontinued; no verified newer replacement found. No automatic removal."
+    }
+  ],
+  "fullCheck": "full-check-2026-11-21.json",
+  "searchNotes": [
+    {
+      "url": "https://github.com/skxingyu/lx_music-",
+      "decision": "Search result offers September archive; no more recent verified standalone replacement identified."
+    }
+  ],
+  "configurationReview": {
+    "source": "doubao",
+    "previousSha256": "b81443617054c9ca5669bf4163a5679cb0354bfa3a03c6c033f431a068e80e15",
+    "note": "Upstream bugfix replacement; other source files, manifest and user credentials unchanged."
+  }
+}
